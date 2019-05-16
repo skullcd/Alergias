@@ -1,0 +1,74 @@
+{
+    "Preguntas":{
+        "Cuerpo":{
+            "Cabeza": {
+                "Ojos": [
+                    "Indica la severidad de picazón en ojos",
+                    "Indica la severidad de enrojecimiento de los ojos",
+                    "Indica la severidad de sensación arenosa en los ojos",
+                    "Indica la severidad del lagrimeo en ojos",
+                    "Indica la severidad de molestia por resequedad en los ojos",
+                    "Indica la severidad de el hinchazón y coloración azul debajo de los ojos.",
+                    "Indica la severidad del hinchazón en los ojos.",
+                    "Indica la severidad de coloración azul debajo de los ojos",
+                    "Indica la severidad de inflamación del revestimiento del ojo",
+                    "Indica la severidad de sensibilidad a la luz"
+                ],
+                "Nariz": [
+                    "Indica la severidad del goteo nasal.",
+                    "Indica la severidad de la congestión nasal.",
+                    "Indica la severidad del goteo posnasal",
+                    "Indica la severidad del picazón en nariz",
+                    "Indica la severidad del moqueo.",
+                    "Indica la severidad de los estornudos"
+                ],
+                "Boca": [
+                    "Indica la severidad de la tos presente",
+                    "Indica la severidad de la tos",
+                    "Indica la severidad de irritación de garganta.",
+                    "Indica la severidad del picazón en paladar",
+                    "Indica la severidad del picazón en garganta",
+                    "Indica la severidad del hormigueo en la boca."
+                ],
+                "GeneralCabeza": [
+                    "Indica la severidad de las náuseas/vómitos.",
+                    "Indica la severidad del dolor en cara",
+                    "Indica la severidad/molestia de despertarse frecuentemente de un sueño.",
+                    "Indica la severidad de mareos presentados."
+                ]
+            },
+            "Pecho": [
+                "Indica la severidad de sibilancia/silbidos al respirar.",
+                "Indica la severidad de dificultad para respirar.",
+                "Indica la severidad de falta de aire",
+                "Indica la severidad de congestión de pecho.",
+                "Indica la severidad de dolor en el pecho."
+
+            ],
+            "Estómago": [
+                "Indica la severidad del dolor abdominal.",
+                "Indica la severidad de la diarrea presentada.",
+                "Indica la severidad de cólicos presentados."
+            ],
+            "GeneralCuerpo":[
+                "Indica la severidad de las manchas en la piel",
+                "Indica la severidad de engrosamiento de la piel",
+                "Indica la severidad de piel en carne viva",
+                "Indica la severidad de resequedad en la piel",
+                "Indica la severidad de las grietas en la piel",
+                "Indica la severidad de la piel escamosa",
+                "Indica la severidad de la fatiga corporal.",
+                "Indica la severidad de dolor en el rostro.",
+                "Indica la severidad de erupciones en la piel.",
+                "Indica la severidad de ronchas en el cuerpo.",
+                "Indica la severidad de calambres en el cuerpo.",
+                "Indica la severidad de la picazón en la piel.",
+                "Indica la severidad de fiebre presentada.",
+                "Indica la severidad de la hinchazón en la piel.",
+                "Indica la severidad de comezón en el cuerpo.",
+                "Indica la severidad de urticaria presente."
+            ]
+        }
+        
+    }
+}
