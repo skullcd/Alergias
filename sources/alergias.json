@@ -20,6 +20,10 @@
                     "Pregunta":"Indica la severidad de picazón en ojos",
                     "Calificacion":0.7
                 },
+                "Ojos rojos":{
+                    "Pregunta":"Indica la severidad de ojos rojos",
+                    "Calificacion":0.7
+                },
                 "Estornudos":{
                     "Pregunta":"Indica la severidad de los estornudos",
                     "Calificacion":0.5
