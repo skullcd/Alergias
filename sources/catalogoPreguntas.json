@@ -56,15 +56,13 @@
                 "38": "Indica la severidad de las grietas en la piel",
                 "39": "Indica la severidad de la piel escamosa",
                 "40": "Indica la severidad de la fatiga corporal.",
-                "41": "Indica la severidad de dolor en el rostro.",
-                "42": "Indica la severidad de erupciones en la piel.",
-                "43": "Indica la severidad de ronchas en el cuerpo.",
-                "44": "Indica la severidad de calambres en el cuerpo.",
-                "45": "Indica la severidad de la picazón en la piel.",
-                "46": "Indica la severidad de fiebre presentada.",
-                "47": "Indica la severidad de la hinchazón en la piel.",
-                "48": "Indica la severidad de comezón en el cuerpo.",
-                "49": "Indica la severidad de urticaria presente."
+                "41": "Indica la severidad de erupciones en la piel.",
+                "42": "Indica la severidad de ronchas en el cuerpo.",
+                "43": "Indica la severidad de calambres en el cuerpo.",
+                "44": "Indica la severidad de la picazón en la piel.",
+                "45": "Indica la severidad de fiebre presentada.",
+                "46": "Indica la severidad de la hinchazón en la piel.",
+                "47": "Indica la severidad de urticaria presente."
             }
         }
         

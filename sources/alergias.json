@@ -16,7 +16,7 @@
                     "Pregunta":"Indica la severidad del lagrimeo de ojos.",
                     "Calificacion":0.8
                 },
-                "Ojos rojos y picazón":{
+                "Ojos picazón":{
                     "Pregunta":"Indica la severidad de picazón en ojos",
                     "Calificacion":0.7
                 },
@@ -87,10 +87,6 @@
                 "Una sensación arenosa en uno o ambos ojos":{
                     "Pregunta":"Indica la severidad de sensación arenosa en los ojos",
                     "Calificacion":0.9
-                },
-                "Secreción en uno o ambos ojos que forma una costra durante la noche, la cual puede impedir que abras un ojo o ambos a la mañana":{
-                    "Pregunta":"Indica la severidad de picazón en los ojos",
-                    "Calificacion":0.8
                 },
                 "Lagrimeo":{
                     "Pregunta":"Indica la severidad del lagrimeo en ojos",
@@ -205,10 +201,6 @@
                 "Bultos":{
                     "Pregunta":"Indica la severidad de los bultos",
                     "Calificacion":0.5
-                },
-                "Ampollas, algunas veces, con supuración y costras":{
-                    "Pregunta":"Indica la severidad de lesiones en la piel.",
-                    "Calificacion":0.7
                 },
                 "Hinchazón piel":{
                     "Pregunta":"Indica la severidad de hinchazón en la piel",
@@ -386,7 +378,7 @@
                     "Pregunta":"Indica la severidad del silbido al respirar.",
                     "Calificacion":0.6
                 },
-                "Congestión nasal o dificultad para respirar":{
+                "Dificultad para respirar":{
                     "Pregunta":"Indica la severidad de la dificultad para respirar.",
                     "Calificacion":0.8
                 },
