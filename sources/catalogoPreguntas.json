@@ -22,15 +22,15 @@
                     "16":"Indica la severidad de los estornudos"
                 },
                 "Boca": {
-                    "17": "Indica la severidad de la tos presente",
-                    "18": "Indica la severidad de la tos",
-                    "19": "Indica la severidad de irritación de garganta.",
-                    "20": "Indica la severidad del picazón en paladar",
-                    "21": "Indica la severidad del picazón en garganta",
-                    "22": "Indica la severidad del hormigueo en la boca."
+                    "17": "Indica la severidad de la tos",
+                    "18": "Indica la severidad de irritación de garganta.",
+                    "19": "Indica la severidad del picazón en paladar",
+                    "20": "Indica la severidad del picazón en garganta",
+                    "21": "Indica la severidad del hormigueo en la boca."
                 },
                 "GeneralCabeza": {
-                    "23": "Indica la severidad de las náuseas/vómitos.",
+                    "22": "Indica la severidad de las náuseas.",
+                    "23": "Indica la sevetridad de vómitos.",
                     "24": "Indica la severidad del dolor en cara",
                     "25": "Indica la severidad/molestia de despertarse frecuentemente de un sueño.",
                     "26": "Indica la severidad de mareos presentados."
