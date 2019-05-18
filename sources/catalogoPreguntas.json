@@ -18,54 +18,53 @@
                     "12":"Indica la severidad de la congestión nasal.",
                     "13":"Indica la severidad del goteo posnasal",
                     "14":"Indica la severidad del picazón en nariz",
-                    "15":"Indica la severidad del moqueo.",
-                    "16":"Indica la severidad de los estornudos"
+                    "15":"Indica la severidad de los estornudos"
                 },
                 "Boca": {
-                    "17": "Indica la severidad de la tos",
-                    "18": "Indica la severidad de irritación de garganta.",
-                    "19": "Indica la severidad del picazón en paladar",
-                    "20": "Indica la severidad del picazón en garganta",
-                    "21": "Indica la severidad del hormigueo en la boca."
+                    "16": "Indica la severidad de la tos",
+                    "17": "Indica la severidad de irritación de garganta.",
+                    "18": "Indica la severidad del picazón en paladar",
+                    "19": "Indica la severidad del picazón en garganta",
+                    "20": "Indica la severidad del hormigueo en la boca."
                 },
                 "GeneralCabeza": {
-                    "22": "Indica la severidad de las náuseas.",
-                    "23": "Indica la sevetridad de vómitos.",
-                    "24": "Indica la severidad del dolor en cara",
-                    "25": "Indica la severidad/molestia de despertarse frecuentemente de un sueño.",
-                    "26": "Indica la severidad de mareos presentados."
+                    "21": "Indica la severidad de las náuseas.",
+                    "22": "Indica la sevetridad de vómitos.",
+                    "23": "Indica la severidad del dolor en cara",
+                    "24": "Indica la severidad/molestia de despertarse frecuentemente de un sueño.",
+                    "25": "Indica la severidad de mareos presentados."
                 }
             },
             "Pecho": {
-                "27": "Indica la severidad de sibilancia/silbidos al respirar.",
-                "28": "Indica la severidad de dificultad para respirar.",
-                "29": "Indica la severidad de falta de aire",
-                "30": "Indica la severidad de congestión de pecho.",
-                "31": "Indica la severidad de dolor en el pecho."
+                "26": "Indica la severidad de sibilancia/silbidos al respirar.",
+                "27": "Indica la severidad de dificultad para respirar.",
+                "28": "Indica la severidad de falta de aire",
+                "29": "Indica la severidad de congestión de pecho.",
+                "30": "Indica la severidad de dolor en el pecho."
 
             },
             "Estómago": {
-                "32": "Indica la severidad del dolor abdominal.",
-                "33": "Indica la severidad de la diarrea presentada.",
-                "34": "Indica la severidad de cólicos presentados."
+                "31": "Indica la severidad del dolor abdominal.",
+                "32": "Indica la severidad de la diarrea presentada.",
+                "33": "Indica la severidad de cólicos presentados."
             },
             "GeneralCuerpo":{
-                "35": "Indica la severidad de las manchas en la piel",
-                "36": "Indica la severidad de engrosamiento de la piel",
-                "37": "Indica la severidad de piel en carne viva",
-                "38": "Indica la severidad de resequedad en la piel",
-                "39": "Indica la severidad de las grietas en la piel",
-                "40": "Indica la severidad de la piel escamosa",
-                "41": "Indica la severidad de la fatiga corporal.",
-                "42": "Indica la severidad de dolor en el rostro.",
-                "43": "Indica la severidad de erupciones en la piel.",
-                "44": "Indica la severidad de ronchas en el cuerpo.",
-                "45": "Indica la severidad de calambres en el cuerpo.",
-                "46": "Indica la severidad de la picazón en la piel.",
-                "47": "Indica la severidad de fiebre presentada.",
-                "48": "Indica la severidad de la hinchazón en la piel.",
-                "49": "Indica la severidad de comezón en el cuerpo.",
-                "50": "Indica la severidad de urticaria presente."
+                "34": "Indica la severidad de las manchas en la piel",
+                "35": "Indica la severidad de engrosamiento de la piel",
+                "36": "Indica la severidad de piel en carne viva",
+                "37": "Indica la severidad de resequedad en la piel",
+                "38": "Indica la severidad de las grietas en la piel",
+                "39": "Indica la severidad de la piel escamosa",
+                "40": "Indica la severidad de la fatiga corporal.",
+                "41": "Indica la severidad de dolor en el rostro.",
+                "42": "Indica la severidad de erupciones en la piel.",
+                "43": "Indica la severidad de ronchas en el cuerpo.",
+                "44": "Indica la severidad de calambres en el cuerpo.",
+                "45": "Indica la severidad de la picazón en la piel.",
+                "46": "Indica la severidad de fiebre presentada.",
+                "47": "Indica la severidad de la hinchazón en la piel.",
+                "48": "Indica la severidad de comezón en el cuerpo.",
+                "49": "Indica la severidad de urticaria presente."
             }
         }
         
