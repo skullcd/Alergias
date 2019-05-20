@@ -11,7 +11,9 @@
                     "6":"Indica la severidad de coloración azul debajo de los ojos.",
                     "8":"Indica la severidad del hinchazón en los ojos.",
                     "9":"Indica la severidad de inflamación del revestimiento del ojo",
-                    "10":"Indica la severidad de sensibilidad a la luz"
+                    "10":"Indica la severidad de sensibilidad a la luz",
+                    "49":"Indica la severidad de la secrecion mucosa o en costra.",
+                    "53":"Indica la severidad de el hinchazón y coloración azul debajo de los ojos."
                 },
                 "Nariz": {
                     "11":"Indica la severidad del goteo nasal.",
@@ -25,12 +27,13 @@
                     "17": "Indica la severidad de irritación de garganta.",
                     "18": "Indica la severidad del picazón en paladar",
                     "19": "Indica la severidad del picazón en garganta",
-                    "20": "Indica la severidad del hormigueo en la boca."
+                    "20": "Indica la severidad del hormigueo en la boca.",
+                    "48": "Indica la severidad de flemas presentes"
                 },
                 "GeneralCabeza": {
                     "21": "Indica la severidad de las náuseas.",
                     "22": "Indica la sevetridad de vómitos.",
-                    "23": "Indica la severidad del dolor en cara",
+                    "23": "Indica la severidad del dolor en el rostro",
                     "24": "Indica la severidad/molestia de despertarse frecuentemente de un sueño.",
                     "25": "Indica la severidad de mareos presentados."
                 }
@@ -62,7 +65,11 @@
                 "44": "Indica la severidad de la picazón en la piel.",
                 "45": "Indica la severidad de fiebre presentada.",
                 "46": "Indica la severidad de la hinchazón en la piel.",
-                "47": "Indica la severidad de urticaria presente."
+                "47": "Indica la severidad de urticaria presente.",
+                "50": "Indica la severidad de los bultos en la piel",
+                "51": "Indica la severidad de lesiones en la piel.",
+                "52": "Indica el nivel de dolor/ardor en la piel",
+                "54": "Indica la severidad de comezón en el cuerpo."
             }
         }
         

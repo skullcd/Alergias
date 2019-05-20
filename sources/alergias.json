@@ -4,65 +4,69 @@
             "Definicion":"La rinitis alérgica o fiebre del heno causa signos y síntomas parecidos al resfrío, como secreción nasal, picazón en los ojos, congestión, estornudos y presión en los senos nasales. No obstante, a diferencia de un resfriado, la fiebre del heno no se produce por un virus. La fiebre del heno se  produce por una respuesta alérgica a los alérgenos en interiores o al aire libre, como el polen, los ácaros del polvo o pequeñas manchas de piel y saliva que arrojan los gatos, perros y otros animales con pelo o plumas (caspa de mascotas).",
             "Area de dolor":"Oído",
             "Sintomas":{
-                "Goteo nasal":{
-                    "Pregunta":"Indica la severidad del goteo nasal.",
-                    "Calificacion":0.5
+                "Naris":{
+                    "Goteo nasal":{
+                        "PreguntaId":11,
+                        "Calificacion":0.5
+                    },
+                    "Congestión nasal":{
+                        "PreguntaId":12,
+                        "Calificacion":0.7
+                    },
+                    "Goteo posnasal":{
+                        "PreguntaId":13,
+                        "Calificacion":0.7
+                    },
+                    "Picazón en la nariz":{
+                        "PreguntaId":14,
+                        "Calificacion":0.7
+                    },
+                    "Estornudos":{
+                        "PreguntaId":15,
+                        "Calificacion":0.5
+                    }
                 },
-                "Congestión nasal":{
-                    "Pregunta":"Indica la severidad de la congestión nasal.",
-                    "Calificacion":0.7
+                "Ojos":{
+                    "Ojos llorosos":{
+                        "Pregunta":4,
+                        "Calificacion":0.8
+                    },
+                    "Ojos rojos y picazón":{
+                        "Pregunta":1,
+                        "Calificacion":0.7
+                    },
+                    "Ojos morados":{
+                        "Picazón en la nariz":6,
+                        "Calificacion":0.8
+                    }
                 },
-                "Ojos llorosos":{
-                    "Pregunta":"Indica la severidad del lagrimeo de ojos.",
-                    "Calificacion":0.8
-                },
-                "Ojos picazón":{
-                    "Pregunta":"Indica la severidad de picazón en ojos",
-                    "Calificacion":0.7
-                },
-                "Ojos rojos":{
-                    "Pregunta":"Indica la severidad de ojos rojos",
-                    "Calificacion":0.7
-                },
-                "Estornudos":{
-                    "Pregunta":"Indica la severidad de los estornudos",
-                    "Calificacion":0.5
-                },
-                "Tos":{
-                    "Pregunta":"Indica la severidad de la tos presente",
-                    "Calificacion":0.7
-                },
-                "Picazón en la nariz":{
-                    "Picazón en la nariz":" Indica la severidad de picazón en la nariz",
-                    "Calificacion":0.7
-                },
-                "Picazón en el el paladar":{
-                    "Picazón en la nariz":"Indica la severidad de picazón en el paladar",
-                    "Calificacion":0.5
-                },
-                "Picazón en la garganta":{
-                    "Picazón en la nariz":"Indica la severidad de picazón en la garganta",
-                    "Calificacion":0.8
-                },
-                "Piel hinchada":{
-                    "Picazón en la nariz":"Indica la severidad de hinchazón en la piel",
-                    "Calificacion":0.8
-                },
-                "Piel de color azul debajo de los ojos (ojos morados alérgicos)":{
-                    "Picazón en la nariz":"Indica la severidad coloración azul bajo tus ojos",
-                    "Calificacion":0.8
-                },
-                "Goteo posnasal":{
-                    "Picazón en la nariz":"Indica la severidad del goteo posnasal",
-                    "Calificacion":0.7
-                },
-                "Fatiga":{
-                    "Picazón en la nariz":"Indica la severidad de la fatiga presente",
-                    "Calificacion":0.9
-                },
-                "Flemas":{
-                    "Picazón en la nariz":"Indica la severidad de flemas presentes",
-                    "Calificacion":0.5
+                "Boca":{
+                    "Picazón en el el paladar":{
+                        "PreguntaId":18,
+                        "Calificacion":0.5
+                    },
+                    "Flemas":{
+                        "PreguntaId":48,
+                        "Calificacion":0.5
+                    },
+                    "Picazón en la garganta":{
+                        "PreguntaId":19,
+                        "Calificacion":0.8
+                    },
+                    "Tos":{
+                        "PreguntaId":16,
+                        "Calificacion":0.7
+                    },
+                    "Fatiga":{
+                        "PreguntaId":40,
+                        "Calificacion":0.9
+                    }
+                },                
+                "Piel":{
+                    "Piel hinchada":{
+                        "PreguntaId":46,
+                        "Calificacion":0.8
+                    }
                 }
             },
             "Tratamiento":{
@@ -76,41 +80,49 @@
             "Definicion":"La conjuntivitis es una inflamación o una infección en la membrana transparente (conjuntiva) que recubre el párpado y la parte blanca del globo ocular. Cuando los pequeños vasos sanguíneos de la conjuntiva se inflaman, se hacen más visibles. Esto es lo que hace que la parte blanca del ojo se torna rojiza o de color rosa. La causa más frecuente de la conjuntivitis es una infección bacteriana o viral, una reacción alérgica o, en bebés, un conducto lagrimal parcialmente abierto.",
             "Area de dolor":"Ojos",
             "Sintomas":{
-                "Enrojecimiento en uno o ambos ojos":{
-                    "Pregunta":"Indica la severidad de enrojecimiento de los ojos",
-                    "Calificacion":1.0
+                "Ojos":{
+                    "Enrojecimiento de los ojos":{
+                        "PreguntaId":2,
+                        "Calificacion":1.0
+                    },
+                    "Picazón en los ojos":{
+                        "Pregunta":1,
+                        "Calificacion":0.8
+                    },
+                    "Sensación arenosa en los ojos":{
+                        "PreguntaId":3,
+                        "Calificacion":0.9
+                    },
+                    "Secreción mucosa en los ojos ":{
+                        "PreguntaId":49,
+                        "Calificacion":0.8
+                    },
+                    "Lagrimeo":{
+                        "PreguntaId":4,
+                        "Calificacion":0.7
+                    },
+                    "Resequedad":{
+                        "PreguntaId":5,
+                        "Calificacion":0.8
+                    },
+                    "Sensibilidad a la luz":{
+                        "PreguntaId":10,
+                        "Calificacion":0.8
+                    },
+                    "Inflamación del revestimiento del ojo":{
+                        "PreguntaId":9,
+                        "Calificacion":0.8
+                    }
                 },
-                "Picazón en uno o ambos ojos":{
-                    "Pregunta":"Indica la severidad de picazón en los ojos",
-                    "Calificacion":0.8
-                },
-                "Una sensación arenosa en uno o ambos ojos":{
-                    "Pregunta":"Indica la severidad de sensación arenosa en los ojos",
-                    "Calificacion":0.9
-                },
-                "Lagrimeo":{
-                    "Pregunta":"Indica la severidad del lagrimeo en ojos",
-                    "Calificacion":0.7
-                },
-                "Resequedad":{
-                    "Pregunta":"Indica la severidad de molestia por resequedad en los ojos",
-                    "Calificacion":0.8
-                },
-                "Congestión nasa":{
-                    "Pregunta":"Indica la severidad de molestia por congestión nasal",
-                    "Calificacion":0.5
-                },
-                "Estornudos":{
-                    "Pregunta":"Indica la severidad de molestia por la tos",
-                    "Calificacion":0.4
-                },
-                "Sensibilidad a la luz":{
-                    "Pregunta":"Indica la severidad de sensibilidad a la luz",
-                    "Calificacion":0.8
-                },
-                "Inflamación del revestimiento del ojo":{
-                    "Pregunta":"Indica la severidad de inflamación del revestimiento del ojo",
-                    "Calificacion":0.8
+                "Nariz":{
+                    "Congestión nasa":{
+                        "PreguntaId":12,
+                        "Calificacion":0.5
+                    },
+                    "Estornudos":{
+                        "PreguntaId":15,
+                        "Calificacion":0.4
+                    }
                 }
             },
             "Tratamiento":{
@@ -130,37 +142,39 @@
             "Definicion":"La dermatitis atópica (eccema) es un trastorno que provoca enrojecimiento de la piel y picazón. Es frecuente en niños, pero puede manifestarse a cualquier edad. La dermatitis atópica es duradera (crónica) y se suele exacerbar periódicamente. Puede manifestarse junto con asma o con rinitis alérgica (fiebre del heno). No se ha encontrado una cura para la dermatitis atópica. Sin embargo, los tratamientos y las medidas de cuidado personal pueden aliviar la picazón y prevenir nuevos brotes.",
             "Area de dolor":"Piel (superficie)",
             "Sintomas":{
-                "Piel seca":{
-                    "Pregunta":"Indica la severidad de resequedad en la piel",
-                    "Calificacion":0.8
-                },
-                "Picazón, que puede ser grave, especialmente durante la noche":{
-                    "Pregunta":"Indica la severidad de picazón en la piel",
-                    "Calificacion":1.0
-                },
-                "Manchas de color rojo a marrón grisáceo":{
-                    "Pregunta":"Indica la severidad de las manchas en la piel",
-                    "Calificacion":1.0
-                },
-                "Pequeños bultos, que pueden perder líquido y cubrirse con una costra al rascarse":{
-                    "Pregunta":"Indica la severidad de los bultos en la piel",
-                    "Calificacion":0.7
-                },
-                "Piel engrosada":{
-                    "Pregunta":"Indica la severidad de engrosamiento de la piel",
-                    "Calificacion":0.5
-                },
-                "Piel agrietada":{
-                    "Pregunta":"Indica la severidad de grietas de la piel",
-                    "Calificacion":0.7
-                },
-                "Piel escamosa":{
-                    "Pregunta":"Indica la severidad de la piel escamosa",
-                    "Calificacion":0.8
-                },
-                "Piel en carne viva, sensible e inflamada por rascarse":{
-                    "Pregunta":"Indica la severidad de piel en carne viva/inflamada/sensible",
-                    "Calificacion":0.7
+                "Piel":{
+                    "Piel seca":{
+                        "PreguntaId":37,
+                        "Calificacion":0.8
+                    },
+                    "Picazón, que puede ser grave, especialmente durante la noche":{
+                        "PreguntaId":44,
+                        "Calificacion":1.0
+                    },
+                    "Manchas de color rojo a marrón grisáceo":{
+                        "PreguntaId":34,
+                        "Calificacion":1.0
+                    },
+                    "Pequeños bultos, que pueden perder líquido y cubrirse con una costra al rascarse":{
+                        "PreguntaId":50,
+                        "Calificacion":0.7
+                    },
+                    "Piel engrosada":{
+                        "PreguntaId":35,
+                        "Calificacion":0.5
+                    },
+                    "Piel agrietada":{
+                        "PreguntaId":38,
+                        "Calificacion":0.7
+                    },
+                    "Piel escamosa":{
+                        "PreguntaId":39,
+                        "Calificacion":0.8
+                    },
+                    "Piel en carne viva, sensible e inflamada por rascarse":{
+                        "PreguntaId":36,
+                        "Calificacion":0.7
+                    }
                 }
             },
             "Tratamiento":{
@@ -178,37 +192,43 @@
             "Definicion":"La dermatitis de contacto es una erupción cutánea rojiza que produce picazón y aparece por contacto directo con una sustancia o por una reacción alérgica a esta. La erupción no es contagiosa ni pone en peligro la vida, pero puede ser muy molesta.",
             "Area de dolor":"Piel o lo que haya sido expuesto al agente.",
             "Sintomas":{
-                "Una erupción cutánea de color rojo":{
-                    "Pregunta":"Indica la severidad de las erupciones cutáneas.",
-                    "Calificacion":1.0
-                },
-                "Picazón":{
-                    "Pregunta":"Indica la severidad de picazón en la piel",
-                    "Calificacion":1.0
-                },
-                "Piel seca":{
-                    "Pregunta":"Indica la severidad de resequedad en la piel",
-                    "Calificacion":0.7
-                },
-                "Piel agrietada":{
-                    "Pregunta":"Indica la severidad de las grietas en la piel",
-                    "Calificacion":0.7
-                },
-                "Piel escamosa":{
-                    "Pregunta":"Indica la severidad de la piel escamosa",
-                    "Calificacion":0.5
-                },
-                "Bultos":{
-                    "Pregunta":"Indica la severidad de los bultos",
-                    "Calificacion":0.5
-                },
-                "Hinchazón piel":{
-                    "Pregunta":"Indica la severidad de hinchazón en la piel",
-                    "Calificacion":0.6
-                },
-                "Ardor o dolor ligero en la piel":{
-                    "Pregunta:":"Indica el nivel de dolor/ardor en la piel",
-                    "Calificacion":0.4
+                "Piel":{
+                    "Una erupción cutánea de color rojo":{
+                        "PreguntaId":35,
+                        "Calificacion":1.0
+                    },
+                    "Picazón":{
+                        "PreguntaId":44,
+                        "Calificacion":1.0
+                    },
+                    "Piel seca":{
+                        "PreguntaId":37,
+                        "Calificacion":0.7
+                    },
+                    "Piel agrietada":{
+                        "PreguntaId":38,
+                        "Calificacion":0.7
+                    },
+                    "Piel escamosa":{
+                        "PreguntaId":39,
+                        "Calificacion":0.5
+                    },
+                    "Bultos":{
+                        "PreguntaId":50,
+                        "Calificacion":0.5
+                    },
+                    "Ampollas, algunas veces, con supuración y costras":{
+                        "PreguntaId":51,
+                        "Calificacion":0.7
+                    },
+                    "Hinchazón piel":{
+                        "PreguntaId":46,
+                        "Calificacion":0.6
+                    },
+                    "Ardor o dolor ligero en la piel":{
+                        "PreguntaId:":52,
+                        "Calificacion":0.4
+                    }
                 }
             },
             "Tratamiento":{
@@ -223,62 +243,69 @@
             "Definicion":"En el asma, los pulmones y las vías respiratorias se inflaman fácilmente al estar expuestos a ciertos detonantes, como inhalar el polen del aire o tener un resfrío u otra infección respiratoria. El asma puede causar molestos síntomas diarios que interfieren con los juegos, la práctica de deportes, la escuela y el descanso del niño. En algunos niños, el asma incontrolable puede causar peligrosos ataques de asma.",
             "Area de dolor":"Vía respiratoria",
             "Sintomas":{
-                "Tos frecuente e intermitente":{
-                    "Pregunta":"Indica la severidad de la tos",
-                    "Calificacion":0.9
+                "Ojos":{
+                    "Enrojecimiento de ojos":{
+                        "PreguntaId":2,
+                        "Calificacion":0.8
+                    },
+                    "Ojos llorosos":{
+                        "PreguntaId":4,
+                        "Calificacion":0.8
+                    }
                 },
-                "Sibilancia o un sonido similar a un silbido al exhalar":{
-                    "Pregunta":"Indica la severidad de sibilancia al respirar (exhalar).",
-                    "Calificacion":0.8
+                "Naris":{
+                    "Congestión nasal":{
+                        "PreguntaId":12,
+                        "Calificacion":0.6
+                    },
+                    "Estornudos":{
+                        "PreguntaId":15,
+                        "Calificacion":0.6
+                    },
+                    "Goteo posnasa":{
+                        "PreguntaId":13,
+                        "Calificacion":0.6
+                    }
                 },
-                "Falta de aire":{
-                    "Pregunta":"Indica la severidad de falta de aire",
-                    "Calificacion":1.0
+                "Boca":{
+                    "Tos frecuente e intermitente":{
+                        "PreguntaId":16,
+                        "Calificacion":0.9
+                    },
+                    "Irritación de garganta":{
+                        "PreguntaId":17,
+                        "Calificacion":0.6
+                    },
+                    "Picazón de garganta":{
+                        "PreguntaId":19,
+                        "Calificacion":0.6
+                    }
                 },
-                "Congestión u opresión en el pecho":{
-                    "Pregunta":"Indica la severidad de congestión de pecho.",
-                    "Calificacion":0.7
+                "Pecho":{
+                    "Sibilancia o un sonido similar a un silbido al exhalar":{
+                        "PreguntaId":26,
+                        "Calificacion":0.8
+                    },"Falta de aire":{
+                        "PreguntaId":28,
+                        "Calificacion":1.0
+                    },"Congestión u opresión en el pecho":{
+                        "PreguntaId":29,
+                        "Calificacion":0.7
+                    },"Dolor de pecho":{
+                        "PreguntaId":30,
+                        "Calificacion":0.5
+                    }
                 },
-                "Dolor de pecho":{
-                    "Pregunta":"Indica la severidad de dolor en el pecho.",
-                    "Calificacion":0.5
-                },
-                "Congestión nasal":{
-                    "Pregunta":"Indica la severidad de congestión nasal.",
-                    "Calificacion":0.6
-                },
-                "Estornudos":{
-                    "Pregunta":"Indica la severidad de los estornudos.",
-                    "Calificacion":0.6
-                },
-                "Goteo posnasa":{
-                    "Pregunta":"Indica la severidad de goteo posnasal.",
-                    "Calificacion":0.6
-                },
-                "Enrojecimiento de ojos":{
-                    "Pregunta":"ndica la severidad del enrojecimiento de los ojos.",
-                    "Calificacion":0.8
-                },
-                "Ojos llorosos":{
-                    "Pregunta":"Indica la severidad del lagrimeo de ojos.",
-                    "Calificacion":0.8
-                },
-                "Picazón":{
-                    "Pregunta":"Indica la severidad de la picazón en el cuerpo.",
-                    "Calificacion":0.5
-                },
-                "Irritación de garganta":{
-                    "Pregunta":"Indica la severidad de la irritación en la garganta",
-                    "Calificacion":0.6
-                },
-                "Picazón de garganta":{
-                    "Pregunta":"Indica la severidad de la sensación de picazón en la garganta.",
-                    "Calificacion":0.6
-                },
-                "Fatiga":{
-                    "Pregunta":"Indica la severidad de la fatiga corporal.",
-                    "Calificacion":0.7
-                }
+                "GeneralCuerpo":{
+                    "Picazón":{
+                        "PreguntaId":44,
+                        "Calificacion":0.5
+                    },
+                    "Fatiga":{
+                        "PreguntaId":40,
+                        "Calificacion":0.7
+                    }
+                } 
             },
             "Tratamiento":{
                 "T1":"Limitar la exposición a los factores desencadenantes del asma.",
@@ -292,62 +319,70 @@
             "Definicion":"La alergia a alguna mascota es una reacción alérgica a proteínas que se encuentran en las células de la piel, la saliva o la orina de un animal. Los signos de la alergia a alguna mascota comprenden los signos frecuentes de la rinitis alérgica (fiebre del heno), como estornudar y moquear. Algunas personas también pueden experimentar signos del asma, como tener un silbido al respirar o dificultad para respirar.",
             "Area de dolor":"Vías respiratorias.",
             "Sintomas":{
-                "Estornudos":{
-                    "Pregunta":"Indica la severidad de los estornudos.",
-                    "Calificacion":1.0
+                "Naris":{
+                    "Estornudos":{
+                        "PreguntaId":15,
+                        "Calificacion":1.0
+                    },
+                    "Moqueo":{
+                        "PreguntaId":11,
+                        "Calificacion":0.8
+                    },
+                    "Congestión nasal":{
+                        "PreguntaId":12,
+                        "Calificacion":0.7
+                    },
+                    "Picazón en la nariz":{
+                        "PreguntaId":14,
+                        "Calificacion":0.6
+                    },
+                    "Goteo posnasal":{
+                        "PreguntaId":13,
+                        "Calificacion":0.5
+                    }
                 },
-                "Moqueo":{
-                    "Pregunta":"Indica la severidad del moqueo.",
-                    "Calificacion":0.8
+                "Ojos":{
+                    "Enrojecimiento de los ojos":{
+                        "PreguntaId":2,
+                        "Calificacion":0.7
+                    },
+                    "Lagrimeo de los ojos":{
+                        "PreguntaId":4,
+                        "Calificacion":0.8
+                    },
+                    "Picazón en los ojos":{
+                        "PreguntaId":1,
+                        "Calificacion":0.8
+                    },
+                    "Piel hinchada y azulada debajo de los ojos.":{
+                        "PreguntaId":53,
+                        "Calificacion":0.8
+                    }
                 },
-                "Picazón en los ojos":{
-                    "Pregunta":"Indica la severidad de la sensación de picazón en los ojos.",
-                    "Calificacion":0.8
+                "Boca":{
+                    "Picazón en paladar":{
+                        "PreguntaId":18,
+                        "Calificacion":0.6
+                    },
+                    "Picazón en la garganta":{
+                        "PreguntaId":19,
+                        "Calificacion":0.6
+                    },
+                    "Tos":{
+                        "PreguntaId":16,
+                        "Calificacion":0.6
+                    }
                 },
-                "Enrojecimiento de los ojos":{
-                    "Pregunta":"Indica la severidad del enrojecimiento de los ojos.",
-                    "Calificacion":0.7
-                },
-                "Lagrimeo de los ojos":{
-                    "Pregunta":"Indica la severidad de lagrimeo en los ojos.",
-                    "Calificacion":0.8
-                },
-                "Congestión nasal":{
-                    "Pregunta":"Indica la severidad de congestión nasal.",
-                    "Calificacion":0.7
-                },
-                "Picazón en la nariz":{
-                    "Pregunta":"Indica la severidad de picazón en la nariz.",
-                    "Calificacion":0.6
-                },
-                "Picazón en paladar":{
-                    "Pregunta":"Indica la severidad de picazón en el paladar.",
-                    "Calificacion":0.6
-                },
-                "Picazón en la garganta":{
-                    "Pregunta":"Indica la severidad de picazón en la garganta.",
-                    "Calificacion":0.6
-                },
-                "Goteo posnasal":{
-                    "Pregunta":"Indica la severidad de goteo posnasal.",
-                    "Calificacion":0.5
-                },
-                "Tos":{
-                    "Pregunta":"Indica la severidad de la tos.",
-                    "Calificacion":0.6
-                },
-                "Sensación de opresión y dolor en el rostro":{
-                    "Pregunta":"Indica la severidad de dolor en el rostro.",
-                    "Calificacion":0.7
-                },
-                "Despertarse con frecuencia":{
-                    "Pregunta":"Indica la severidad/molestia de despertarse frecuentemente de un sueño.",
-                    "Calificacion":0.5
-                },
-                "Piel hinchada y azulada debajo de los ojos.":{
-                    "Pregunta":"Indica la severidad de el hinchazón y coloración azul debajo de los ojos.",
-                    "Calificacion":0.8
-                }
+                "GeneralCabeza":{
+                    "Sensación de opresión y dolor en el rostro":{
+                        "PreguntaId":23,
+                        "Calificacion":0.7
+                    },
+                    "Despertarse con frecuencia":{
+                        "PreguntaId":24,
+                        "Calificacion":0.5
+                    }
+                }       
             },
             "Tratamiento":{
                 "T1":"Alejarse de las mascotas.",
@@ -362,58 +397,69 @@
             "Definicion":"La alergia alimentaria es una reacción del sistema inmunitario que ocurre poco después de haber ingerido un determinado alimento. Incluso una pequeña cantidad del alimento que causa la alergia puede ocasionar signos y síntomas, como problemas digestivos, urticaria o inflamación de las vías respiratorias. En algunas personas, una alergia alimentaria puede ocasionar síntomas graves o, incluso, una reacción que puede poner en riesgo la vida, denominada «anafilaxia».",
             "Area de dolor":"Sistema digestivo.",
             "Sintomas":{
-                "Hormigueo o picazón en la boca":{
-                    "Pregunta":"Indica la severidad del hormigueo en la boca.",
-                    "Calificacion":0.8
+                "Boca":{
+                    "Hormigueo o picazón en la boca":{
+                        "Pregunta":20,
+                        "Calificacion":0.8
+                    }
                 },
-                "Urticaria":{
-                    "Pregunta":"Indica la severidad de la urticaria presentada.",
-                    "Calificacion":0.9
+                "GeneralCuerpo":{
+                    "Urticaria":{
+                        "Pregunta":47,
+                        "Calificacion":0.9
+                    },
+                    "Hinchazón en los labios, la cara, la lengua y la garganta u otras partes del cuerpo":{
+                        "Pregunta":46,
+                        "Calificacion":1.0
+                    },
+                    
+                    "Erupciones en la piel":{
+                        "Pregunta":41,
+                        "Calificacion":1.0
+                    },
+                    "Ronchas":{
+                        "Pregunta":42,
+                        "Calificacion":1.0
+                    },
+                    "Calambres":{
+                        "Pregunta":43,
+                        "Calificacion":0.8
+                    } 
                 },
-                "Hinchazón en los labios, la cara, la lengua y la garganta u otras partes del cuerpo":{
-                    "Pregunta":"Indica la severidad de la hinchazón en el cuerpo.",
-                    "Calificacion":1.0
+                "Pecho":{
+                    "Silbido al respirar":{
+                        "Pregunta":26,
+                        "Calificacion":0.6
+                    },
+                    "Congestión nasal o dificultad para respirar":{
+                        "Pregunta":27,
+                        "Calificacion":0.8
+                    }
                 },
-                "Silbido al respirar":{
-                    "Pregunta":"Indica la severidad del silbido al respirar.",
-                    "Calificacion":0.6
+                "Estomago":{
+                    "Dolor abdominal":{
+                        "Pregunta":31,
+                        "Calificacion":0.8
+                    },
+                    "Diarrea":{
+                        "Pregunta":32,
+                        "Calificacion":1.0
+                    },
+                    "Cólicos":{
+                        "Pregunta":33,
+                        "Calificacion":0.9
+                    }
                 },
-                "Dificultad para respirar":{
-                    "Pregunta":"Indica la severidad de la dificultad para respirar.",
-                    "Calificacion":0.8
-                },
-                "Dolor abdominal":{
-                    "Pregunta":"Indica la severidad del dolor abdominal.",
-                    "Calificacion":0.8
-                },
-                "Diarrea":{
-                    "Pregunta":"Indica la severidad de la diarrea presentada.",
-                    "Calificacion":1.0
-                },
-                "Náuseas o vómitos":{
-                    "Pregunta":"Indica la severidad de las náuseas/vómitos.",
-                    "Calificacion":0.9
-                },
-                "Mareos, aturdimiento o desmayos":{
-                    "Pregunta":"Indica la severidad de mareos presentados.",
-                    "Calificacion":0.7
-                },
-                "Erupciones en la piel":{
-                    "Pregunta":"Indica la severidad de erupciones en la piel.",
-                    "Calificacion":1.0
-                },
-                "Ronchas":{
-                    "Pregunta":"Indica la severidad de ronchas en el cuerpo.",
-                    "Calificacion":1.0
-                },
-                "Calambres":{
-                    "Pregunta":"Indica la severidad de calambres en el cuerpo.",
-                    "Calificacion":0.8
-                },
-                "Cólicos":{
-                    "Pregunta":"Indica la severidad de cólicos presentados.",
-                    "Calificacion":0.9
-                }
+                "GeneralCabeza":{
+                    "Náuseas o vómitos":{
+                        "Pregunta":21,
+                        "Calificacion":0.9
+                    },
+                    "Mareos, aturdimiento o desmayos":{
+                        "Pregunta":25,
+                        "Calificacion":0.7
+                    }
+                }       
             },
             "Tratamiento":{
                 "T1":"Ser consciente de lo que se come y bebe.",
@@ -427,54 +473,62 @@
             "Definicion":"La alergia a un medicamento es una reacción anormal del sistema inmunitario a ese medicamento. Todos los medicamentos, sean de venta libre, recetados o a base de hierbas, pueden producir alergia. Sin embargo, existen ciertos medicamentos que provocan alergia con mayor probabilidad.",
             "Area de dolor":"Piel",
             "Sintomas":{
-                "Erupción cutánea":{
-                    "Pregunta":"Indica la severidad de las erupciones aparecidas.",
-                    "Calificacion":1.0
+                "GeneralCuerpo":{
+                    "Erupción cutánea":{
+                        "Pregunta":41,
+                        "Calificacion":1.0
+                    },
+                    "Urticaria":{
+                        "Pregunta":47,
+                        "Calificacion":0.9
+                    },
+                    "Picazón":{
+                        "Pregunta":44,
+                        "Calificacion":0.9
+                    },
+                    "Fiebre":{
+                        "Pregunta":45,
+                        "Calificacion":0.8
+                    },
+                    "Hinchazón":{
+                        "Pregunta":46,
+                        "Calificacion":0.6
+                    },
+                    "Ronchas":{
+                        "Pregunta":42,
+                        "Calificacion":1.0
+                    }
                 },
-                "Urticaria":{
-                    "Pregunta":"Indica la severidad de la urticaria presente.",
-                    "Calificacion":0.9
+                "Pecho":{
+                    "Falta de aire":{
+                        "Pregunta":28,
+                        "Calificacion":0.8
+                    },
+                    "Silbido al respirar":{
+                        "Pregunta":26,
+                        "Calificacion":0.4
+                    }
                 },
-                "Picazón":{
-                    "Pregunta":"Indica la severidad de la picazón en la piel.",
-                    "Calificacion":0.9
+                "Naris":{
+                    "Moqueo":{
+                        "Pregunta":11,
+                        "Calificacion":0.8
+                    },
+                    "Congestión nasal":{
+                        "Pregunta":12,
+                        "Calificacion":0.7
+                    }
                 },
-                "Fiebre":{
-                    "Pregunta":"Indica la severidad de fiebre presentada.",
-                    "Calificacion":0.8
-                },
-                "Hinchazón":{
-                    "Pregunta":"Indica la severidad de la hinchazón en la piel.",
-                    "Calificacion":0.6
-                },
-                "Falta de aire":{
-                    "Pregunta":"Indica la severidad de falta de aire presentada.",
-                    "Calificacion":0.8
-                },
-                "Silbido al respirar":{
-                    "Pregunta":"Indica la severidad de los silbidos al respirar.",
-                    "Calificacion":0.4
-                },
-                "Moqueo":{
-                    "Pregunta":"Indica la severidad del moqueo presentado.",
-                    "Calificacion":0.8
-                },
-                "Ojos llorosos":{
-                    "Pregunta":"Indica la severidad del lagrimeo en los ojos.",
-                    "Calificacion":0.7
-                },
-                "Ojos con picazón":{
-                    "Pregunta":"Indica la severidad de picazón en ojos.",
-                    "Calificacion":0.8
-                },
-                "Ronchas":{
-                    "Pregunta":"Indica la severidad de ronchas presentadas.",
-                    "Calificacion":1.0
-                },
-                "Congestión nasal":{
-                    "Pregunta":"Indica la severidad de la congestión nasal.",
-                    "Calificacion":0.7
-                }
+                "Ojos":{
+                    "Ojos llorosos":{
+                        "Pregunta":4,
+                        "Calificacion":0.7
+                    },
+                    "Ojos con picazón":{
+                        "Pregunta":1,
+                        "Calificacion":0.8
+                    }
+                }                
             },
             "Tratamiento":{
                 "T1":"Usar brazalete para prevenir una ingesta no indicada.",
@@ -487,54 +541,64 @@
             "Definicion":"Una alergia al moho puede hacerte toser, producir picazón en los ojos y causar otros síntomas que te generan un gran malestar. En algunas personas, la alergia al moho está relacionada con el asma, y la exposición produce problemas para respirar y otros síntomas de las vías respiratorias.",
             "Area de dolor":"Vías respiratorias.",
             "Sintomas":{
-                "Tos":{
-                    "Pregunta":"Indica la severidad de la tos presente.",
-                    "Calificaciom":1.0
+                "Boca":{
+                    "Tos":{
+                        "Pregunta":16,
+                        "Calificaciom":1.0
+                    },
+                    "Irritación de garganta":{
+                        "Pregunta":17,
+                        "Calificaciom":0.7
+                    }
                 },
-                "Comezón":{
-                    "Pregunta":"Indica la severidad de comezón en el cuerpo.",
-                    "Calificaciom":0.6
+                "GeneralCuerpo":{
+                    "Comezón":{
+                        "Pregunta":54,
+                        "Calificaciom":0.6
+                    },
+                    "Urticaria":{
+                        "Pregunta":47,
+                        "Calificaciom":0.9
+                    }
                 },
-                "Ojos llorosos":{
-                    "Pregunta":"Indica la severidad de lagrimeo en los ojos.",
-                    "Calificaciom":0.7
+                "Ojos":{
+                    "Ojos llorosos":{
+                        "Pregunta":4,
+                        "Calificaciom":0.7
+                    },
+                    "Ojos hinchados":{
+                        "Pregunta":8,
+                        "Calificaciom":0.9
+                    },
+                    "Picazón en ojos":{
+                        "Pregunta":1,
+                        "Calificaciom":0.8
+                    }
                 },
-                "Urticaria":{
-                    "Pregunta":"Indica la severidad de urticaria presente.",
-                    "Calificaciom":0.9
+                "Pecho":{
+                    "Sibilancia":{
+                        "Pregunta":26,
+                        "Calificaciom":0.8
+                    },
+                    "Dificultad para respirar":{
+                        "Pregunta":27,
+                        "Calificaciom":1.0
+                    }
                 },
-                "Sibilancia":{
-                    "Pregunta":"Indica la severidad de sibilancia/silbidos al respirar.",
-                    "Calificaciom":0.8
-                },
-                "Dificultad para respirar":{
-                    "Pregunta":"Indica la severidad de dificultad para respirar.",
-                    "Calificaciom":1.0
-                },
-                "Congestión nasal":{
-                    "Pregunta":"Indica la severidad de la congestión nasal.",
-                    "Calificaciom":0.9
-                },
-                "Estornudos":{
-                    "Pregunta":"Indica la severidad de los estornudos.",
-                    "Calificaciom":0.8
-                },
-                "Goteo posnasal":{
-                    "Pregunta":"Indica la severidad del goteo posnasal.",
-                    "Calificaciom":0.5
-                },
-                "Ojos hinchados":{
-                    "Pregunta":"Indica la severidad del hinchazón en los ojos.",
-                    "Calificaciom":0.9
-                },
-                "Picazón en ojos":{
-                    "Pregunta":"Indica la severidad de picazón en ojos.",
-                    "Calificaciom":0.8
-                },
-                "Irritación de garganta":{
-                    "Pregunta":"Indica la severidad de irritación de garganta.",
-                    "Calificaciom":0.7
-                }
+                "Naris":{
+                    "Congestión nasal":{
+                        "Pregunta":12,
+                        "Calificaciom":0.9
+                    },
+                    "Estornudos":{
+                        "Pregunta":15,
+                        "Calificaciom":0.8
+                    },
+                    "Goteo posnasal":{
+                        "Pregunta":13,
+                        "Calificaciom":0.5
+                    }
+                }     
             },
             "Tratamiento":{
                 "T1":"Eliminar fuentes de humedad.",
@@ -553,58 +617,66 @@
             "Definicion":"La alergia a los ácaros del polvo es una reacción alérgica a pequeños insectos que viven normalmente en el polvo del hogar. Los signos de la alergia a los ácaros del polvo comprenden los signos frecuentes de la rinitis alérgica (fiebre del heno), como estornudar y moquear. Muchas personas con alergia a los ácaros del polvo también presentan signos de asma, como silbido al respirar y dificultad para respirar. Los ácaros del polvo, parientes cercanos de las garrapatas y las arañas, son demasiado pequeños como para verlos sin un microscopio. Los ácaros del polvo se alimentan de células de piel que pierden las personas y crecen en ambientes cálidos y húmedos. En la mayoría de los hogares, elementos como la ropa de cama, los muebles tapizados y los alfombrados proporcionan un ambiente ideal para los ácaros del polvo.",
             "Area de dolor":"Vías respiratorias y ojos",
             "Sintomas":{
-                "Estornudos":{
-                    "Pregunta":"Indica el nivel de severidad de estornudos",
-                    "Calificacion":1.0
+                "Naris":{
+                    "Estornudos":{
+                        "Pregunta":15,
+                        "Calificacion":1.0
+                    },
+                    "Moqueo":{
+                        "Pregunta":11,
+                        "Calificacion":0.9
+                    },
+                    "Congestión nasal":{
+                        "Pregunta":12,
+                        "Calificacion":0.7
+                    },
+                    "Picazón en la nariz":{
+                        "Pregunta":14,
+                        "Calificacion":0.6
+                    },
+                    "Goteo nasal posterior":{
+                        "Pregunta":13,
+                        "Calificacion":0.6
+                    }
                 },
-                "Moqueo":{
-                    "Pregunta":"Indica el nivel de severidad de moqueo",
-                    "Calificacion":0.9
+                "Ojos":{
+                    "Ojos rojos":{
+                        "Pregunta":2,
+                        "Calificacion":0.8
+                    },
+                    "Ojos llorosos":{
+                        "Pregunta":4,
+                        "Calificacion":0.8
+                    },
+                    "Picazón en ojos":{
+                        "Pregunta":1,
+                        "Calificacion":0.7
+                    },
+                    "Piel azulada e inflamada debajo de los ojos":{
+                        "Pregunta":53,
+                        "Calificacion":0.6
+                    }
                 },
-                "Ojos rojos":{
-                    "Pregunta":"Indica el nivel de severidad ",
-                    "Calificacion":0.8
+                "Boca":{
+                    "Picazón en el paladar":{
+                        "Pregunta":18,
+                        "Calificacion":0.4
+                    },
+                    "Picazón en la garganta":{
+                        "Pregunta":19,
+                        "Calificacion":0.4
+                    },
+                    "Tos":{
+                        "Pregunta":16,
+                        "Calificacion":0.6
+                    }
                 },
-                "Ojos llorosos":{
-                    "Pregunta":"Indica la severidad del lagrimeo de ojos",
-                    "Calificacion":0.8
-                },
-                "Picazón en ojos":{
-                    "Pregunta":"Indica la severidad del picazón en ojos",
-                    "Calificacion":0.7
-                },
-                "Congestión nasal":{
-                    "Pregunta":"Indica la severidad de molestia por congestión nasal",
-                    "Calificacion":0.7
-                },
-                "Picazón en la nariz":{
-                    "Pregunta":"Indica la severidad del picazón en nariz",
-                    "Calificacion":0.6
-                },
-                "Picazón en el paladar":{
-                    "Pregunta":"Indica la severidad del picazón en paladar",
-                    "Calificacion":0.4
-                },
-                "Picazón en la garganta":{
-                    "Pregunta":"Indica la severidad del picazón en garganta",
-                    "Calificacion":0.4
-                },
-                "Goteo nasal posterior":{
-                    "Pregunta":"Indica la severidad del goteo posnasal",
-                    "Calificacion":0.6
-                },
-                "Tos":{
-                    "Pregunta":"Indica la severidad de tos presente",
-                    "Calificacion":0.6
-                },
-                "Dolor y presión facial":{
-                    "Pregunta":"Indica la severidad del dolor en cara",
-                    "Calificacion":0.7
-                },
-                "Piel azulada e inflamada debajo de los ojos":{
-                    "Pregunta":"Indica la severidad de coloración azul debajo de los ojos",
-                    "Calificacion":0.6
-                }
+                "GeneralCabeza":{
+                    "Dolor y presión facial":{
+                        "Pregunta":23,
+                        "Calificacion":0.7
+                    }
+                }     
             },
             "Tratamiento":{
                 "T1":"Los antihistamínicos.",
