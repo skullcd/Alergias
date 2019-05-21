@@ -54,7 +54,7 @@
       <div class="contenido">
           <div id="cont_derecho" class="cont_derecho">
             <div class="preguntas">
-                <h1>Indica tu nivel de dolor en los hoa como estas <i onclick="ContenedorDefinicion()">Ojos</i></h1>
+                <h1>Indica tu nivel de dolor en los <i onclick="ContenedorDefinicion()">Ojos</i></h1>
             </div>
             <div class=" container">
                  <div class="range-slider">
@@ -67,7 +67,6 @@
                   <div class="box-minmax">
                     <span>:D</span><span>:(</span>
                   </div>
-
 <!--
                  <div class="tarjeta sad">
                  <i class="fa fa-frown-o " aria-hidden="true"></i>
@@ -80,21 +79,34 @@
                 </div>
 -->
             </div>
+            <button>Aceptar</button>
           </div>
           <div class="cont_izquierdo">
               <div class="img_descripcion">
-                <img id="img_principal" style="height: 500px; max-width: 100%;" src="imagenes/cuerpo.jpg">
+                <img id="img_principal" style="height: 500px; max-width: 100%; max-height: 100%;" src="imagenes/cuerpo.jpg">
               </div>
               <div class="descripcion">
-                   <div class="swiper-container swiper-container-enf">
-                    <div style="height: 100%; margin-top: 30px" class="swiper-wrapper">
-                      <div onclick="change_photo('Cabeza')" style="height: 100px" class="swiper-slide tarjetas-opciones">Cabeza</div>
-                      <div onclick="change_photo('Torso')" style="height: 100px" class="swiper-slide tarjetas-opciones">Torso</div>
-                      <div onclick="change_photo('Brazo')" style="height: 100px" class="swiper-slide tarjetas-opciones">Brazo</div>
-                      <div onclick="change_photo('Pierna')" style="height: 100px" class="swiper-slide tarjetas-opciones">Pierna</div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+                  <div class="des-area">
+                    <h2 style="text-align:center;">Area de dolor</h2>
+                    <div class="swiper-container swiper-container-enf">
+                     <div style="height: 100%; margin-top: 10px; margin-bottom: 30px" class="swiper-wrapper">
+                       <div onclick="change_photo('Cabeza')" style="height: 100px" class="swiper-slide tarjetas-opciones">Cabeza</div>
+                       <div onclick="change_photo('Torso')" style="height: 100px" class="swiper-slide tarjetas-opciones">Torso</div>
+                       <div onclick="change_photo('Brazo')" style="height: 100px" class="swiper-slide tarjetas-opciones">Brazo</div>
+                       <div onclick="change_photo('Pierna')" style="height: 100px" class="swiper-slide tarjetas-opciones">Pierna</div>
+                     </div>
+                     <!-- Add Pagination -->
+                     <div style="margin-bottom: 30px" class="swiper-pagination"></div>
+                  </div>
+                  <div class="des-area-especifica">
+                    <h2 style="text-align:center;">Area de dolor especifico</h2>
+                    <div class="swiper-container swiper-container-enf">
+                     <div id="dolorEspecifico" style="height: 100%; margin-top: 10px" class="swiper-wrapper">
+
+                     </div>
+                     <!-- Add Pagination -->
+                     <div class="swiper-pagination"></div>
+                  </div>
                   </div>
               </div>
           </div>

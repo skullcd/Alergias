@@ -565,7 +565,7 @@ body , html{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    width: 120px !important;
+    width: 142px !important;
 }
 
 .descripcion_img{
@@ -578,15 +578,15 @@ body , html{
     justify-content: center;
     align-items: center;
     transition: .8s ease-in-out;
-    
-    
+
+
 }
 
 .contenedor_decripcion{
     width: 50%;
     height: 50%;
     background-color: white;
-    
+
 }
 
 .contenedor_decripcion_derecho, .contenedor_decripcion_izquierdo{
@@ -639,4 +639,12 @@ body , html{
   border: 0;
   background: url('../imagenes/happy.png');
   cursor: pointer;
+}
+
+.des-area, .des-area-especifica{
+  width: 100%;
+  height: 50%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
