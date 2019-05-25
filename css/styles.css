@@ -648,3 +648,14 @@ body , html{
   /* justify-content: center; */
   /* align-items: center; */
 }
+
+.button-accept{
+  left: 85%;
+position: relative;
+margin-top: 11%;
+border: none;
+width: 100px;
+height: 30px;
+background: #B39D34;
+color: white;
+}
