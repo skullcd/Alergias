@@ -53,33 +53,32 @@
       </div>
       <div class="contenido">
           <div id="cont_derecho" class="cont_derecho">
-            <div class="preguntas">
-                <h1>Indica tu nivel de dolor en los <i onclick="ContenedorDefinicion()">Ojos</i></h1>
+            <div style="height:auto !important" class="swiper-container swiper-container3">
+              <div id="preguntas" class="swiper-wrapper">
+                <div class="swiper-slide"><div class="preguntas"><h1>Selecciona un área de dolor</i></h1></div></div>
+                <!-- <div class="swiper-slide"><div class="preguntas"><h1>xex tu nivel de dolor en los <i onclick="ContenedorDefinicion()">Ojos</i></h1></div></div>
+                <div class="swiper-slide"><div class="preguntas"><h1>www tu nivel de dolor en los <i onclick="ContenedorDefinicion()">Ojos</i></h1></div></div>
+                <div class="swiper-slide"><div class="preguntas"><h1>qq tu nivel de dolor en los <i onclick="ContenedorDefinicion()">Ojos</i></h1></div></div> -->
+              </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination3"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
             </div>
+            <!-- <div class="preguntas">
+                <h1>Indica tu nivel de dolor en los <i onclick="ContenedorDefinicion()">Ojos</i></h1>
+            </div> -->
             <div class=" container">
                  <div class="range-slider">
                     <span id="rs-bullet" class="rs-label"></span>
-                    <input id="rs-range-line" class="rs-range" type="range" value="5" min="0" max="10">
-
+                    <input id="rs-range-line" class=" rs-range" type="range" value="0" min="0" max="10">
                   </div>
-
-
                   <div class="box-minmax">
                     <span>:D</span><span>:(</span>
                   </div>
-<!--
-                 <div class="tarjeta sad">
-                 <i class="fa fa-frown-o " aria-hidden="true"></i>
-                </div>
-                <div class="tarjeta meh">
-                     <i class="fa fa-meh-o" aria-hidden="true"></i>
-                </div>
-                <div class="tarjeta happy">
-                     <i class="fa fa-smile-o" aria-hidden="true"></i>
-                </div>
--->
             </div>
-            <button>Aceptar</button>
+            <button  onclick="getQuestion()"  class="button-accept">Aceptar</button>
           </div>
           <div class="cont_izquierdo">
               <div class="img_descripcion">
@@ -125,15 +124,19 @@
       },
     });
 
-//     var swiper = new Swiper('.swiper-container', {
-//      slidesPerView: 3,
-//      slidesPerColumn: 2,
-//      spaceBetween: 30,
-//      pagination: {
-//        el: '.swiper-pagination',
-//        clickable: true,
-//      },
-//    });
+    var swiper = new Swiper('.swiper-container3', {
+       slidesPerView: 1,
+       spaceBetween: 30,
+       loop: true,
+       pagination: {
+         el: '.swiper-pagination3',
+         clickable: true,
+       },
+       navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+       },
+     });
 
   var swiper = new Swiper('.swiper-container-enf', {
       slidesPerView: 3,

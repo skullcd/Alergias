@@ -7,7 +7,6 @@ function showSliderValue() {
   rangeBullet.innerHTML = rangeSlider.value;
   var bulletPosition = (rangeSlider.value /rangeSlider.max);
   var dom = document.getElementById('cont_derecho');
-    console.log(bulletPosition);
   if (bulletPosition >= 0 && bulletPosition < (0.4)) {
         // if (bulletPosition == 0) {colorOne = "#41BA2F";}
         // if (bulletPosition == 0.1) {colorOne = "#2EAE1B";}
@@ -19,7 +18,6 @@ function showSliderValue() {
         if (bulletPosition == 0.3) {colorOne = "#41BA2F";}
         colorTwo = "#096500";
         orientation = "180deg";
-        console.log("iuno");
         rangeBullet.innerHTML = "<i class='fa fa-smile-o' aria-hidden='true'></i>"
   } else if(bulletPosition >= 0.4 && bulletPosition < (0.7)){
         if (bulletPosition == 0.4) {colorOne = "#FFD700";}
