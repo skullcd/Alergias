@@ -12,7 +12,7 @@
   --textoNormal:14px;
 }
 *{
-  margin: 0px;:
+  margin: 0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -165,6 +165,7 @@ body , html{
     position: relative;
     height: 100%;
     float: left;
+    overflow-y: auto;
 }
 
 .cont_derecho{
@@ -658,4 +659,5 @@ width: 100px;
 height: 30px;
 background: #B39D34;
 color: white;
+margin-bottom: 5%
 }
