@@ -62,13 +62,13 @@ function getData(area, areaEspecifica){
 }
 
 var datosArr=[];
-for (var i = 0; i < 53; i++) {
+for (var i = 0; i < 55; i++) {
   datosArr[i] = 0;
 }
 function getQuestion(){
   // console.log(datosArr);
-  datosArr[document.getElementsByClassName("swiper-slide-active")[0].getElementsByTagName('div')[0].id] = parseInt(document.getElementById('rs-range-line').value);
-  console.log(datosArr);
+  datosArr[document.getElementsByClassName("swiper-slide-active")[0].getElementsByTagName('div')[0].id] = parseFloat(document.getElementById('rs-range-line').value/10);
+  localStorage.setItem("datosUsuario",JSON.stringify(datosArr));
   document.getElementById('rs-range-line').value = 0;
   showSliderValue();
   // console.log(document.getElementsByClassName("swiper-slide-active")[0].getElementsByTagName('div')[0].id);

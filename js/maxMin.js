@@ -29,7 +29,7 @@ function diagnostico(alergias, sintomasUser) {
   var suma;
   var aux;
   var sumaAlergias;
-  console.log(alergias);
+  console.log(sintomasUser);
     //Obtener el mínimo de el cruce de síntomas de usuario y síntomas de cada alergia
     for (let i = 0; i < alergias.length; i++) {
         for (let j = 1; j <= alergias[i].length; j++) {
