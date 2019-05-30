@@ -4,7 +4,7 @@
             "Definicion":"La rinitis alérgica o fiebre del heno causa signos y síntomas parecidos al resfrío, como secreción nasal, picazón en los ojos, congestión, estornudos y presión en los senos nasales. No obstante, a diferencia de un resfriado, la fiebre del heno no se produce por un virus. La fiebre del heno se  produce por una respuesta alérgica a los alérgenos en interiores o al aire libre, como el polen, los ácaros del polvo o pequeñas manchas de piel y saliva que arrojan los gatos, perros y otros animales con pelo o plumas (caspa de mascotas).",
             "Area de dolor":"Oído",
             "Sintomas":{
-                "Naris":{
+                "Nariz":{
                     "Goteo nasal":{
                         "PreguntaId":11,
                         "Calificacion":0.4
@@ -115,7 +115,7 @@
                     }
                 },
                 "Nariz":{
-                    "Congestión nasa":{
+                    "Congestión nasal":{
                         "PreguntaId":12,
                         "Calificacion":0.4
                     },
@@ -253,7 +253,7 @@
                         "Calificacion":0.1
                     }
                 },
-                "Naris":{
+                "Nariz":{
                     "Congestión nasal":{
                         "PreguntaId":12,
                         "Calificacion":0.4
@@ -319,7 +319,7 @@
             "Definicion":"La alergia a alguna mascota es una reacción alérgica a proteínas que se encuentran en las células de la piel, la saliva o la orina de un animal. Los signos de la alergia a alguna mascota comprenden los signos frecuentes de la rinitis alérgica (fiebre del heno), como estornudar y moquear. Algunas personas también pueden experimentar signos del asma, como tener un silbido al respirar o dificultad para respirar.",
             "Area de dolor":"Vías respiratorias.",
             "Sintomas":{
-                "Naris":{
+                "Nariz":{
                     "Estornudos":{
                         "PreguntaId":15,
                         "Calificacion":0.5
@@ -509,7 +509,7 @@
                         "Calificacion":0.1
                     }
                 },
-                "Naris":{
+                "Nariz":{
                     "Moqueo":{
                         "PreguntaId":11,
                         "Calificacion":0.3
@@ -585,7 +585,7 @@
                         "Calificacion":0.4
                     }
                 },
-                "Naris":{
+                "Nariz":{
                     "Congestión nasal":{
                         "PreguntaId":12,
                         "Calificacion":0.4
@@ -617,7 +617,7 @@
             "Definicion":"La alergia a los ácaros del polvo es una reacción alérgica a pequeños insectos que viven normalmente en el polvo del hogar. Los signos de la alergia a los ácaros del polvo comprenden los signos frecuentes de la rinitis alérgica (fiebre del heno), como estornudar y moquear. Muchas personas con alergia a los ácaros del polvo también presentan signos de asma, como silbido al respirar y dificultad para respirar. Los ácaros del polvo, parientes cercanos de las garrapatas y las arañas, son demasiado pequeños como para verlos sin un microscopio. Los ácaros del polvo se alimentan de células de piel que pierden las personas y crecen en ambientes cálidos y húmedos. En la mayoría de los hogares, elementos como la ropa de cama, los muebles tapizados y los alfombrados proporcionan un ambiente ideal para los ácaros del polvo.",
             "Area de dolor":"Vías respiratorias y ojos",
             "Sintomas":{
-                "Naris":{
+                "Nariz":{
                     "Estornudos":{
                         "PreguntaId":15,
                         "Calificacion":0.5
