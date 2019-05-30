@@ -15,8 +15,6 @@ function califica() {
         [8, 'Alergia al moho'],
         [9, 'Alergia a los ácaros del polvo']
     ];
-    console.log(matrizAlergias);
-    console.log("----------");
     
     
 

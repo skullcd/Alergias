@@ -1,5 +1,5 @@
 
-function diagnostico(alergias, sintomasUser) {
+function diagnostico(alergias, sintomasUser, tipoDiagnostico) {
   var auxSintomas = [
       [0],
       [1],
@@ -29,8 +29,6 @@ function diagnostico(alergias, sintomasUser) {
   var suma;
   var aux;
   var sumaAlergias;
-  console.log(sintomasUser);
-  console.log(alergias);
   
     //Obtener el mínimo de el cruce de síntomas de usuario y síntomas de cada alergia
     for (let i = 0; i < alergias.length; i++) {
@@ -67,7 +65,7 @@ function diagnostico(alergias, sintomasUser) {
       }
 
     }
-    console.log(valorMasAlto);
+    console.log(valorMasAlto + ": valor mas alto");
 
     //Se obtiene la suma de cada alergia (según sus síntomas)
     for (let i = 0; i < alergias.length; i++) {
@@ -90,10 +88,10 @@ function diagnostico(alergias, sintomasUser) {
       }
 
     }
-    console.log(auxSumaAlergias);
+    console.log(auxSumaAlergias + " suma alergas");
     for (let i = 0; i < auxSumaAlergias.length; i++) {
         if(auxSumaAlergias == valorMasAlto){
-            console.log(alergias[i][0]);
+            // console.log(alergias[i][0]);
         }else{
             // kk = Math.max.apply(Math, auxSumaAlergias);
             console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + sintomasUser[0])
