@@ -11,7 +11,6 @@ var AreaDolor = {Cabeza:["Nariz", "Ojos", "Orejas", "Boca", "Garganta"], Torso:[
  Brazo:["Mano", "Hombro", "Codo"],Pierna:["Rodilla", "Pies"]};
 
 function change_photo(tipo){
-    console.log(AreaDolor[tipo]);
     data="";
     for(datos in AreaDolor[tipo]){
       data +="<div style='height: 100px' onclick=\"getQuestions('"+AreaDolor[tipo][datos]+"', '"+tipo+"')\" class='swiper-slide tarjetas-opciones'>"+AreaDolor[tipo][datos]+"</div>";
@@ -31,7 +30,6 @@ function getData(area, areaEspecifica){
   xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var myArr = JSON.parse(this.responseText);
-    console.log(areaEspecifica);
     areaEspecifica = myArr.Preguntas.Cuerpo[area][areaEspecifica];
     data="";
     try {
@@ -68,10 +66,40 @@ var datosArr=[];
 for (var i = 0; i < 55; i++) {
   datosArr[i] = 0;
 }
+
+
+var cantidadPreguntas=[]
+for (var i = 0; i < 55; i++) {
+  cantidadPreguntas[i] = 0;
+}
+localStorage.setItem("cantidadPreguntas",JSON.stringify(cantidadPreguntas));
+
 function getQuestion(){
+  cantidadPreguntas = JSON.parse(localStorage.getItem("cantidadPreguntas"));
+  cantidadPreguntas[document.getElementsByClassName("swiper-slide-active")[0].getElementsByTagName('div')[0].id] = 1;
+
   datosArr[document.getElementsByClassName("swiper-slide-active")[0].getElementsByTagName('div')[0].id] = parseFloat(document.getElementById('rs-range-line').value/10);
   localStorage.setItem("datosUsuario",JSON.stringify(datosArr));
+  localStorage.setItem("cantidadPreguntas",JSON.stringify(cantidadPreguntas));
   document.getElementById('rs-range-line').value = 0;
+  showSliderValue();
+  contadorPreguntas();
+}
+
+
+function contadorPreguntas(){
+  cont=0;
+  cantidadPreguntas = JSON.parse(localStorage.getItem("cantidadPreguntas"));
+  for (var i = 0; i < cantidadPreguntas.length; i++) {
+    if (cantidadPreguntas[i]==1) {
+      cont++;
+    }
+  }
+  $("#ContadorPregunta").html("Preguntas contestadas: "+cont);
+  if (cont == 3) {
+    console.log("entro");
+    $("#boton-diagnostico").css("opacity","1");
+  }
 }
 
 function TipoDiagnostico(tipo){
@@ -99,11 +127,9 @@ function obtenerAlergias(){
                 "<h1 class='form-control'>"+nombreAlergia+"</h1>"
                 // "<input type='text' value="+nombreAlergia+" class='form-control'>"+
               "</div>";
-              console.log(Object.keys(alergias)[i]);
             }
 
             document.getElementById('cont-alergias').innerHTML = contenido;
-            console.log(contenido);
         }
       }
 }
@@ -115,8 +141,11 @@ function validarSeleccion(){
       respuestas.push(this.id);
     }
   });
-  localStorage.setItem("SeleccionAlergias",JSON.stringify(respuestas));
-  $("#contenido-especifico").css("display","none");
-  $("#seleccionarArea-especifico").css("display","block");
-  console.log(respuestas);
+  if (respuestas.length == 0) {
+    alert("Selecciona una alergia");
+  }else {
+    localStorage.setItem("SeleccionAlergias",JSON.stringify(respuestas));
+    $("#contenido-especifico").css("display","none");
+    $("#seleccionarArea-especifico").css("display","block");
+  }
 }
