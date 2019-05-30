@@ -1,19 +1,23 @@
-usuario = [0, 0.2, 0.1, 0.3, 0.2, 0.9, 0, 0, 0, 0.8, 0.8, 0, 0.7, 0, 0, 0.3, 0, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 0]
+//usuario = [0, 0.2, 0.1, 0.3, 0.2, 0.9, 0, 0, 0, 0.8, 0.8, 0, 0.7, 0, 0, 0.3, 0, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 0]
 usuario = JSON.parse(localStorage.getItem("datosUsuario"));
-// console.log(usuario);
+console.log(usuario);
+console.log("---------------");
+
 function califica() {
     var matrizAlergias = [
-        [0], //hata llegar a 54 (total de sintomas).
-        [1], //hata llegar a 54 (total de sintomas).
-        [2],
-        [3],
-        [4],
-        [5],
-        [6],
-        [7],
-        [8],
-        [9]
+        [0, ['Rinitis alérgica']], //hata llegar a 54 (total de sintomas).
+        [1, ['Conjuntivitis']], //hata llegar a 54 (total de sintomas).
+        [2, ['Dermatitis atópica']],
+        [3, ['Dermatitis de contacto']],
+        [4, ['Asma alérgico']],
+        [5, ['Alergia a las mascotas']],
+        [6, ['Alergia alimentaria']],
+        [7, ['Alergia a medicamento']],
+        [8, ['Alergia al moho']],
+        [9, ['Alergia a los ácaros del polvo']]
     ];
+    console.log(matrizAlergias);
+    
 
     //Rellena la matriz en las 53 posiciones con 0
     for (let i = 0; i < matrizAlergias.length; i++) {
@@ -68,7 +72,7 @@ function califica() {
                 acumulador = 0;
             }
 
-            //llenar la matriz "matrizAlergias" en la posicion correspondiente con pa calificacion correspondiente
+            //llenar la matriz "matrizAlergias" en la posicion correspondiente con la calificacion correspondiente
             let y = 1;
             var posicionCorrecta = 0;
 
