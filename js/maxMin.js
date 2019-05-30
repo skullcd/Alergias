@@ -1,5 +1,5 @@
 
-function diagnostico(alergias, sintomasUser, tipoDiagnostico) {
+function diagnostico(alergias, sintomasUser,  alergiasTexto) {
   var auxSintomas = [
       [0],
       [1],
@@ -29,7 +29,7 @@ function diagnostico(alergias, sintomasUser, tipoDiagnostico) {
   var suma;
   var aux;
   var sumaAlergias;
-  
+
     //Obtener el mínimo de el cruce de síntomas de usuario y síntomas de cada alergia
     for (let i = 0; i < alergias.length; i++) {
         for (let j = 1; j <= alergias[i].length; j++) {
@@ -65,7 +65,7 @@ function diagnostico(alergias, sintomasUser, tipoDiagnostico) {
       }
 
     }
-    console.log(valorMasAlto + ": valor mas alto");
+    console.log(valorMasAlto);
 
     //Se obtiene la suma de cada alergia (según sus síntomas)
     for (let i = 0; i < alergias.length; i++) {
@@ -88,13 +88,45 @@ function diagnostico(alergias, sintomasUser, tipoDiagnostico) {
       }
 
     }
-    console.log(auxSumaAlergias + " suma alergas");
+    // console.log(auxSumaAlergias);
+    // console.log(valorMasAlto);
+    minimo = 0;
+    maximo = 0;
+
+    var consulta1 = auxSumaAlergias.filter(function (c) {
+    	return c > valorMasAlto;
+    });
+    var consulta2 = auxSumaAlergias.filter(function (c) {
+      return c < valorMasAlto;
+    });
+    minimo = Math.abs(1.8-Math.min.apply(Math,consulta2));
+    maximo = Math.abs(1.8-Math.min.apply(Math,consulta1));
+    valorFinal=0;
+    if (minimo<maximo) {
+      valorFinal = minimo;
+    }else {
+      valorFinal = maximo;
+    }
+    posicionFinalAlergia=null;
+
+    console.log(auxSumaAlergias);
+    console.log(valorFinal);
+    console.log(valorMasAlto);
+    for (var i = 0; i < auxSumaAlergias.length; i++) {
+      if (auxSumaAlergias[i]+valorFinal == valorMasAlto) {
+        console.log("entro");
+        posicionFinalAlergia = i;
+        break;
+      }
+    }
+    console.log(posicionFinalAlergia);
+
     for (let i = 0; i < auxSumaAlergias.length; i++) {
-        if(auxSumaAlergias == valorMasAlto){
+        if(auxSumaAlergias[i] == valorMasAlto){
             // console.log(alergias[i][0]);
         }else{
             // kk = Math.max.apply(Math, auxSumaAlergias);
-            console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergias[i][0])
+            console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergiasTexto[posicionFinalAlergia][1])
             break;
         }
     }
