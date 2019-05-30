@@ -94,7 +94,7 @@ function diagnostico(alergias, sintomasUser, tipoDiagnostico) {
             // console.log(alergias[i][0]);
         }else{
             // kk = Math.max.apply(Math, auxSumaAlergias);
-            console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + sintomasUser[0])
+            console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergias[i][0])
             break;
         }
     }
