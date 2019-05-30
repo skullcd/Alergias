@@ -21,6 +21,9 @@ body , html{
   height: 100%;
   background: var(--fondo);
 }
+#seleccionarArea-especifico, #cont-preguntas-derecha{
+  display: none;
+}
 .menu{
   width: 200px;
   height: 100%;
@@ -171,9 +174,9 @@ body , html{
 .cont_derecho{
     width: 75%;
     color: white;
-      background-color: #000;
+    background-color: #FFF1AB;
     font-family: 'Roboto',sans-serif;
-    background: linear-gradient(180deg,#DB302A 0%,#62186B 100%) no-repeat;
+    /* background: linear-gradient(180deg,#DB302A 0%,#62186B 100%) no-repeat; */
 /*
      display: flex;
     justify-content: center;

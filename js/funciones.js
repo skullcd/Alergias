@@ -59,6 +59,9 @@ function getData(area, areaEspecifica){
   };
   xmlhttp.open("GET", url, true);
   xmlhttp.send();
+  showSliderValue();
+  $("#option-inicial").css("display","none");
+  $("#cont-preguntas-derecha").css("display","block");
 }
 
 var datosArr=[];
@@ -66,11 +69,54 @@ for (var i = 0; i < 55; i++) {
   datosArr[i] = 0;
 }
 function getQuestion(){
-  // console.log(datosArr);
   datosArr[document.getElementsByClassName("swiper-slide-active")[0].getElementsByTagName('div')[0].id] = parseFloat(document.getElementById('rs-range-line').value/10);
   localStorage.setItem("datosUsuario",JSON.stringify(datosArr));
   document.getElementById('rs-range-line').value = 0;
-  showSliderValue();
-  // console.log(document.getElementsByClassName("swiper-slide-active")[0].getElementsByTagName('div')[0].id);
-  // console.log(document.getElementById('rs-range-line').value);
+}
+
+function TipoDiagnostico(tipo){
+    window.location = tipo+".html";
+
+}
+
+function obtenerAlergias(){
+  var request = new XMLHttpRequest();
+  request.open('GET', './sources/alergias.json', true);
+  request.send();
+  request.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+          var contenido="";
+          var alergiasArray = JSON.parse(this.responseText);
+          var alergias = alergiasArray['Alergias'];
+          for (let i = 0; i < Object.keys(alergias).length; i++) {
+              nombreAlergia = Object.keys(alergias)[i];
+              contenido +="<div class='input-group mb-3'>"+
+                "<div class='input-group-prepend'>"+
+                  "<div class='input-group-text'>"+
+                    "<input id="+i+" type='checkbox' >"+
+                  "</div>"+
+                "</div>"+
+                "<h1 class='form-control'>"+nombreAlergia+"</h1>"
+                // "<input type='text' value="+nombreAlergia+" class='form-control'>"+
+              "</div>";
+              console.log(Object.keys(alergias)[i]);
+            }
+
+            document.getElementById('cont-alergias').innerHTML = contenido;
+            console.log(contenido);
+        }
+      }
+}
+
+function validarSeleccion(){
+  respuestas=[];
+  $('#cont-alergias :input').each(function(e){
+    if($("#"+this.id).is(':checked')) {
+      respuestas.push(this.id);
+    }
+  });
+  localStorage.setItem("SeleccionAlergias",JSON.stringify(respuestas));
+  $("#contenido-especifico").css("display","none");
+  $("#seleccionarArea-especifico").css("display","block");
+  console.log(respuestas);
 }
