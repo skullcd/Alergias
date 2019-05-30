@@ -7,37 +7,37 @@
                 "Naris":{
                     "Goteo nasal":{
                         "PreguntaId":11,
-                        "Calificacion":0.5
+                        "Calificacion":0.4
                     },
                     "Congestión nasal":{
                         "PreguntaId":12,
-                        "Calificacion":0.7
+                        "Calificacion":0.3
                     },
                     "Goteo posnasal":{
                         "PreguntaId":13,
-                        "Calificacion":0.7
+                        "Calificacion":0.5
                     },
                     "Picazón en la nariz":{
                         "PreguntaId":14,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     },
                     "Estornudos":{
                         "PreguntaId":15,
-                        "Calificacion":0.5
+                        "Calificacion":0.3
                     }
                 },
                 "Ojos":{
                     "Ojos llorosos":{
                         "PreguntaId":4,
-                        "Calificacion":0.8
+                        "Calificacion":0.2
                     },
                     "Ojos rojos y picazón":{
                         "PreguntaId":1,
-                        "Calificacion":0.7
+                        "Calificacion":0.1
                     },
                     "Ojos morados":{
                         "PreguntaId":6,
-                        "Calificacion":0.8
+                        "Calificacion":0.2
                     }
                 },
                 "Boca":{
@@ -47,25 +47,25 @@
                     },
                     "Flemas":{
                         "PreguntaId":48,
-                        "Calificacion":0.5
+                        "Calificacion":0.2
                     },
                     "Picazón en la garganta":{
                         "PreguntaId":19,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Tos":{
                         "PreguntaId":16,
-                        "Calificacion":0.7
+                        "Calificacion":0.1
                     },
                     "Fatiga":{
                         "PreguntaId":40,
-                        "Calificacion":0.9
+                        "Calificacion":0.2
                     }
                 },            
                 "Piel":{
                     "Piel hinchada":{
                         "PreguntaId":46,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     }
                 }
             },
@@ -83,45 +83,45 @@
                 "Ojos":{
                     "Enrojecimiento de los ojos":{
                         "PreguntaId":2,
-                        "Calificacion":1.0
+                        "Calificacion":0.7
                     },
                     "Picazón en los ojos":{
                         "PreguntaId":1,
-                        "Calificacion":0.8
+                        "Calificacion":0.2
                     },
                     "Sensación arenosa en los ojos":{
                         "PreguntaId":3,
-                        "Calificacion":0.9
+                        "Calificacion":0.1
                     },
                     "Secreción mucosa en los ojos ":{
                         "PreguntaId":49,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Lagrimeo":{
                         "PreguntaId":4,
-                        "Calificacion":0.7
+                        "Calificacion":0.3
                     },
                     "Resequedad":{
                         "PreguntaId":5,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Sensibilidad a la luz":{
                         "PreguntaId":10,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     },
                     "Inflamación del revestimiento del ojo":{
                         "PreguntaId":9,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     }
                 },
                 "Nariz":{
                     "Congestión nasa":{
                         "PreguntaId":12,
-                        "Calificacion":0.5
+                        "Calificacion":0.4
                     },
                     "Estornudos":{
                         "PreguntaId":15,
-                        "Calificacion":0.4
+                        "Calificacion":0.2
                     }
                 }
             },
@@ -145,35 +145,35 @@
                 "Piel":{
                     "Piel seca":{
                         "PreguntaId":37,
-                        "Calificacion":0.8
+                        "Calificacion":0.2
                     },
                     "Picazón, que puede ser grave, especialmente durante la noche":{
                         "PreguntaId":44,
-                        "Calificacion":1.0
+                        "Calificacion":0.3
                     },
                     "Manchas de color rojo a marrón grisáceo":{
                         "PreguntaId":34,
-                        "Calificacion":1.0
+                        "Calificacion":0.5
                     },
                     "Pequeños bultos, que pueden perder líquido y cubrirse con una costra al rascarse":{
                         "PreguntaId":50,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     },
                     "Piel engrosada":{
                         "PreguntaId":35,
-                        "Calificacion":0.5
+                        "Calificacion":0.1
                     },
                     "Piel agrietada":{
                         "PreguntaId":38,
-                        "Calificacion":0.7
+                        "Calificacion":0.1
                     },
                     "Piel escamosa":{
                         "PreguntaId":39,
-                        "Calificacion":0.8
+                        "Calificacion":0.1
                     },
                     "Piel en carne viva, sensible e inflamada por rascarse":{
                         "PreguntaId":36,
-                        "Calificacion":0.7
+                        "Calificacion":0.1
                     }
                 }
             },
@@ -195,39 +195,39 @@
                 "Piel":{
                     "Una erupción cutánea de color rojo":{
                         "PreguntaId":35,
-                        "Calificacion":1.0
+                        "Calificacion":0.6
                     },
                     "Picazón":{
                         "PreguntaId":44,
-                        "Calificacion":1.0
+                        "Calificacion":0.5
                     },
                     "Piel seca":{
                         "PreguntaId":37,
-                        "Calificacion":0.7
+                        "Calificacion":0.4
                     },
                     "Piel agrietada":{
                         "PreguntaId":38,
-                        "Calificacion":0.7
+                        "Calificacion":0.4
                     },
                     "Piel escamosa":{
                         "PreguntaId":39,
-                        "Calificacion":0.5
+                        "Calificacion":0.2
                     },
                     "Bultos":{
                         "PreguntaId":50,
-                        "Calificacion":0.5
+                        "Calificacion":0.2
                     },
                     "Ampollas, algunas veces, con supuración y costras":{
                         "PreguntaId":51,
-                        "Calificacion":0.7
+                        "Calificacion":0.4
                     },
                     "Hinchazón piel":{
                         "PreguntaId":46,
-                        "Calificacion":0.6
+                        "Calificacion":0.1
                     },
                     "Ardor o dolor ligero en la piel":{
                         "PreguntaId:":52,
-                        "Calificacion":0.4
+                        "Calificacion":0.1
                     }
                 }
             },
@@ -246,64 +246,64 @@
                 "Ojos":{
                     "Enrojecimiento de ojos":{
                         "PreguntaId":2,
-                        "Calificacion":0.8
+                        "Calificacion":0.1
                     },
                     "Ojos llorosos":{
                         "PreguntaId":4,
-                        "Calificacion":0.8
+                        "Calificacion":0.1
                     }
                 },
                 "Naris":{
                     "Congestión nasal":{
                         "PreguntaId":12,
-                        "Calificacion":0.6
+                        "Calificacion":0.4
                     },
                     "Estornudos":{
                         "PreguntaId":15,
-                        "Calificacion":0.6
+                        "Calificacion":0.4
                     },
                     "Goteo posnasa":{
                         "PreguntaId":13,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     }
                 },
                 "Boca":{
                     "Tos frecuente e intermitente":{
                         "PreguntaId":16,
-                        "Calificacion":0.9
+                        "Calificacion":0.2
                     },
                     "Irritación de garganta":{
                         "PreguntaId":17,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     },
                     "Picazón de garganta":{
                         "PreguntaId":19,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     }
                 },
                 "Pecho":{
                     "Sibilancia o un sonido similar a un silbido al exhalar":{
                         "PreguntaId":26,
-                        "Calificacion":0.8
+                        "Calificacion":0.6
                     },"Falta de aire":{
                         "PreguntaId":28,
-                        "Calificacion":1.0
+                        "Calificacion":0.7
                     },"Congestión u opresión en el pecho":{
                         "PreguntaId":29,
-                        "Calificacion":0.7
+                        "Calificacion":0.3
                     },"Dolor de pecho":{
                         "PreguntaId":30,
-                        "Calificacion":0.5
+                        "Calificacion":0.2
                     }
                 },
                 "GeneralCuerpo":{
                     "Picazón":{
                         "PreguntaId":44,
-                        "Calificacion":0.5
+                        "Calificacion":0.1
                     },
                     "Fatiga":{
                         "PreguntaId":40,
-                        "Calificacion":0.7
+                        "Calificacion":0.3
                     }
                 } 
             },
@@ -322,65 +322,65 @@
                 "Naris":{
                     "Estornudos":{
                         "PreguntaId":15,
-                        "Calificacion":1.0
+                        "Calificacion":0.5
                     },
                     "Moqueo":{
                         "PreguntaId":11,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Congestión nasal":{
                         "PreguntaId":12,
-                        "Calificacion":0.7
+                        "Calificacion":0.3
                     },
                     "Picazón en la nariz":{
                         "PreguntaId":14,
-                        "Calificacion":0.6
+                        "Calificacion":0.1
                     },
                     "Goteo posnasal":{
                         "PreguntaId":13,
-                        "Calificacion":0.5
+                        "Calificacion":0.2
                     }
                 },
                 "Ojos":{
                     "Enrojecimiento de los ojos":{
                         "PreguntaId":2,
-                        "Calificacion":0.7
+                        "Calificacion":0.4
                     },
                     "Lagrimeo de los ojos":{
                         "PreguntaId":4,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Picazón en los ojos":{
                         "PreguntaId":1,
-                        "Calificacion":0.8
+                        "Calificacion":0.2
                     },
                     "Piel hinchada y azulada debajo de los ojos.":{
                         "PreguntaId":53,
-                        "Calificacion":0.8
+                        "Calificacion":0.2
                     }
                 },
                 "Boca":{
                     "Picazón en paladar":{
                         "PreguntaId":18,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     },
                     "Picazón en la garganta":{
                         "PreguntaId":19,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     },
                     "Tos":{
                         "PreguntaId":16,
-                        "Calificacion":0.6
+                        "Calificacion":0.3
                     }
                 },
                 "GeneralCabeza":{
                     "Sensación de opresión y dolor en el rostro":{
                         "PreguntaId":23,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     },
                     "Despertarse con frecuencia":{
                         "PreguntaId":24,
-                        "Calificacion":0.5
+                        "Calificacion":0.1
                     }
                 }       
             },
@@ -400,64 +400,64 @@
                 "Boca":{
                     "Hormigueo o picazón en la boca":{
                         "PreguntaId":20,
-                        "Calificacion":0.8
+                        "Calificacion":0.1
                     }
                 },
                 "GeneralCuerpo":{
                     "Urticaria":{
                         "PreguntaId":47,
-                        "Calificacion":0.9
+                        "Calificacion":0.2
                     },
                     "Hinchazón en los labios, la cara, la lengua y la garganta u otras partes del cuerpo":{
                         "PreguntaId":46,
-                        "Calificacion":1.0
+                        "Calificacion":0.3
                     },
                     
                     "Erupciones en la piel":{
                         "PreguntaId":41,
-                        "Calificacion":1.0
+                        "Calificacion":0.6
                     },
                     "Ronchas":{
                         "PreguntaId":42,
-                        "Calificacion":1.0
+                        "Calificacion":0.4
                     },
                     "Calambres":{
                         "PreguntaId":43,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     } 
                 },
                 "Pecho":{
                     "Silbido al respirar":{
                         "PreguntaId":26,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     },
                     "Congestión nasal o dificultad para respirar":{
                         "PreguntaId":27,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     }
                 },
                 "Estomago":{
                     "Dolor abdominal":{
                         "PreguntaId":31,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Diarrea":{
                         "PreguntaId":32,
-                        "Calificacion":1.0
+                        "Calificacion":0.2
                     },
                     "Cólicos":{
                         "PreguntaId":33,
-                        "Calificacion":0.9
+                        "Calificacion":0.2
                     }
                 },
                 "GeneralCabeza":{
                     "Náuseas o vómitos":{
                         "PreguntaId":21,
-                        "Calificacion":0.9
+                        "Calificacion":0.3
                     },
                     "Mareos, aturdimiento o desmayos":{
                         "PreguntaId":25,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     }
                 }       
             },
@@ -476,57 +476,57 @@
                 "GeneralCuerpo":{
                     "Erupción cutánea":{
                         "PreguntaId":41,
-                        "Calificacion":1.0
+                        "Calificacion":0.2
                     },
                     "Urticaria":{
                         "PreguntaId":47,
-                        "Calificacion":0.9
+                        "Calificacion":0.3
                     },
                     "Picazón":{
                         "PreguntaId":44,
-                        "Calificacion":0.9
+                        "Calificacion":0.4
                     },
                     "Fiebre":{
                         "PreguntaId":45,
-                        "Calificacion":0.8
+                        "Calificacion":0.5
                     },
                     "Hinchazón":{
                         "PreguntaId":46,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     },
                     "Ronchas":{
                         "PreguntaId":42,
-                        "Calificacion":1.0
+                        "Calificacion":0.6
                     }
                 },
                 "Pecho":{
                     "Falta de aire":{
                         "PreguntaId":28,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     },
                     "Silbido al respirar":{
                         "PreguntaId":26,
-                        "Calificacion":0.4
+                        "Calificacion":0.1
                     }
                 },
                 "Naris":{
                     "Moqueo":{
                         "PreguntaId":11,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Congestión nasal":{
                         "PreguntaId":12,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     }
                 },
                 "Ojos":{
                     "Ojos llorosos":{
                         "PreguntaId":4,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     },
                     "Ojos con picazón":{
                         "PreguntaId":1,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     }
                 }                
             },
@@ -544,59 +544,59 @@
                 "Boca":{
                     "Tos":{
                         "PreguntaId":16,
-                        "Calificacion":1.0
+                        "Calificacion":0.6
                     },
                     "Irritación de garganta":{
                         "PreguntaId":17,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     }
                 },
                 "GeneralCuerpo":{
                     "Comezón":{
                         "PreguntaId":54,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     },
                     "Urticaria":{
                         "PreguntaId":47,
-                        "Calificacion":0.9
+                        "Calificacion":0.4
                     }
                 },
                 "Ojos":{
                     "Ojos llorosos":{
                         "PreguntaId":4,
-                        "Calificacion":0.7
+                        "Calificacion":0.2
                     },
                     "Ojos hinchados":{
                         "PreguntaId":8,
-                        "Calificacion":0.9
+                        "Calificacion":0.4
                     },
                     "Picazón en ojos":{
                         "PreguntaId":1,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     }
                 },
                 "Pecho":{
                     "Sibilancia":{
                         "PreguntaId":26,
-                        "Calificacion":0.8
+                        "Calificacion":0.3
                     },
                     "Dificultad para respirar":{
                         "PreguntaId":27,
-                        "Calificacion":1.0
+                        "Calificacion":0.4
                     }
                 },
                 "Naris":{
                     "Congestión nasal":{
                         "PreguntaId":12,
-                        "Calificacion":0.9
+                        "Calificacion":0.4
                     },
                     "Estornudos":{
                         "PreguntaId":15,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     },
                     "Goteo posnasal":{
                         "PreguntaId":13,
-                        "Calificacion":0.5
+                        "Calificacion":0.2
                     }
                 }     
             },
@@ -620,61 +620,61 @@
                 "Naris":{
                     "Estornudos":{
                         "PreguntaId":15,
-                        "Calificacion":1.0
+                        "Calificacion":0.5
                     },
                     "Moqueo":{
                         "PreguntaId":11,
-                        "Calificacion":0.9
+                        "Calificacion":0.4
                     },
                     "Congestión nasal":{
                         "PreguntaId":12,
-                        "Calificacion":0.7
+                        "Calificacion":0.3
                     },
                     "Picazón en la nariz":{
                         "PreguntaId":14,
-                        "Calificacion":0.6
+                        "Calificacion":0.1
                     },
                     "Goteo nasal posterior":{
                         "PreguntaId":13,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     }
                 },
                 "Ojos":{
                     "Ojos rojos":{
                         "PreguntaId":2,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     },
                     "Ojos llorosos":{
                         "PreguntaId":4,
-                        "Calificacion":0.8
+                        "Calificacion":0.4
                     },
                     "Picazón en ojos":{
                         "PreguntaId":1,
-                        "Calificacion":0.7
+                        "Calificacion":0.1
                     },
                     "Piel azulada e inflamada debajo de los ojos":{
                         "PreguntaId":53,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     }
                 },
                 "Boca":{
                     "Picazón en el paladar":{
                         "PreguntaId":18,
-                        "Calificacion":0.4
+                        "Calificacion":0.3
                     },
                     "Picazón en la garganta":{
                         "PreguntaId":19,
-                        "Calificacion":0.4
+                        "Calificacion":0.2
                     },
                     "Tos":{
                         "PreguntaId":16,
-                        "Calificacion":0.6
+                        "Calificacion":0.2
                     }
                 },
                 "GeneralCabeza":{
                     "Dolor y presión facial":{
                         "PreguntaId":23,
-                        "Calificacion":0.7
+                        "Calificacion":0.1
                     }
                 }     
             },

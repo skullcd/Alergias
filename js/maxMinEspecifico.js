@@ -89,6 +89,7 @@ function diagnosticoEspecifico(alergias, sintomasUser, alergiasSeleccion,alergia
 
     }
       console.log(auxSumaAlergias + " suma alergas");
+      ContenedorDefinicion();
     for (let i = 0; i < auxSumaAlergias.length; i++) {
       console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergiasTexto[alergiasSeleccion[i]][1])
         // if(auxSumaAlergias == valorMasAlto){
