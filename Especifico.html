@@ -103,45 +103,49 @@
 
           </div>
           <div class="text-center">
-              <a onclick="validarSeleccion()" style="color:white; bottom: 22px; " class='btn btn-primary my-2'>Siguiente</a>
+            <a onclick="validarSeleccion()" style="color:white; bottom: 22px; "
+              class='btn btn-primary my-2'>Siguiente</a>
           </div>
         </div>
 
 
         <div id="seleccionarArea-especifico">
           <div class="img_descripcion">
-           <img id="img_principal" style="height: 400px; max-width: 100%; max-height: 100%;" src="imagenes/cuerpo.jpg">
-         </div>
-         <div class="descripcion">
-           <div class="des-area">
-             <h2 style="text-align:center;">Area de dolor</h2>
-             <div class="swiper-container swiper-container-enf">
-               <div style="height: 100%; margin-top: 10px; margin-bottom: 30px" class="swiper-wrapper">
-                 <div onclick="change_photo('Cabeza')" style="height: 100px" class="swiper-slide tarjetas-opciones">
-                   Cabeza</div>
-                 <div onclick="change_photo('Torso')" style="height: 100px" class="swiper-slide tarjetas-opciones">Torso
-                 </div>
-                 <div onclick="change_photo('Brazo')" style="height: 100px" class="swiper-slide tarjetas-opciones">Brazo
-                 </div>
-                 <div onclick="change_photo('Pierna')" style="height: 100px" class="swiper-slide tarjetas-opciones">
-                   Pierna</div>
-               </div>
-               <div style="margin-bottom: 30px" class="swiper-pagination"></div>
-             </div>
-             <div class="des-area-especifica">
-               <h2 style="text-align:center;">Area de dolor especifico</h2>
-               <div class="swiper-container swiper-container-enf">
-                 <div id="dolorEspecifico" style="height: 100%; margin-top: 10px" class="swiper-wrapper">
+            <img id="img_principal" style="height: 400px; max-width: 100%; max-height: 100%;" src="imagenes/Cuerpo.jpg">
+          </div>
+          <div class="descripcion">
+            <div class="des-area">
+              <h2 style="text-align:center;">Area de dolor</h2>
+              <div class="swiper-container swiper-container-enf">
+                <div style="height: 100%; margin-top: 10px; margin-bottom: 30px" class="swiper-wrapper">
+                  <div onclick="change_photo('Cabeza')" style="height: 100px" class="swiper-slide tarjetas-opciones">
+                    Cabeza</div>
+                  <div onclick="change_photo('torso')" style="height: 100px" class="swiper-slide tarjetas-opciones">
+                    Torso
+                  </div>
+                  <div onclick="change_photo('Brazo')" style="height: 100px" class="swiper-slide tarjetas-opciones">
+                    Brazo
+                  </div>
+                  <div onclick="change_photo('Pierna')" style="height: 100px" class="swiper-slide tarjetas-opciones">
+                    Pierna</div>
+                </div>
+                <div style="margin-bottom: 30px" class="swiper-pagination"></div>
+              </div>
+              <div class="des-area-especifica">
+                <h2 style="text-align:center;">Area de dolor especifico</h2>
+                <div class="swiper-container swiper-container-enf">
+                  <div id="dolorEspecifico" style="height: 100%; margin-top: 10px" class="swiper-wrapper">
 
-                 </div>
-                 <div class="swiper-pagination"></div>
-               </div>
-             </div>
-           </div>
-         </div>
-         <div class="text-center">
-             <a onclick="validarSeleccion(); onclick="califica(); " style="color:white; bottom: 22px; " class='btn btn-primary my-2'>Generar diagnostico</a>
-         </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <a onclick="validarSeleccion(); califica(); " style="color:white; bottom: 22px; "
+              class='btn btn-primary my-2'>Generar diagnostico</a>
+          </div>
         </div>
 
 
