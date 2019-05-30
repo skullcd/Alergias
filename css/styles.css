@@ -21,6 +21,9 @@ body , html{
   height: 100%;
   background: var(--fondo);
 }
+.boton-diag{
+  opacity: 0 ;
+}
 #seleccionarArea-especifico, #cont-preguntas-derecha{
   display: none;
 }
@@ -654,13 +657,13 @@ body , html{
 }
 
 .button-accept{
-  left: 85%;
+left: 85% !important;
 position: relative;
-margin-top: 11%;
+margin-top: 11% !important;
 border: none;
-width: 100px;
-height: 30px;
-background: #B39D34;
+/* width: 100px; */
+/* height: 30px; */
+/* background: #B39D34; */
 color: white;
-margin-bottom: 5%
+margin-bottom: 5%;
 }

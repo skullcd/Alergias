@@ -2,10 +2,10 @@ var rangeSlider = document.getElementById("rs-range-line");
 var rangeBullet = document.getElementById("rs-bullet");
 
 rangeSlider.addEventListener("input", showSliderValue, false);
-// 
+//
 function showSliderValue() {
   rangeBullet.innerHTML = rangeSlider.value;
-  var bulletPosition = (rangeSlider.value /rangeSlider.max);
+  var bulletPosition = (rangeSlider.value/rangeSlider.max);
   var dom = document.getElementById('cont_derecho');
   if (bulletPosition >= 0 && bulletPosition < (0.4)) {
         // if (bulletPosition == 0) {colorOne = "#41BA2F";}
