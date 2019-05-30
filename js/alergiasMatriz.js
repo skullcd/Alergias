@@ -1,8 +1,14 @@
 //usuario = [0, 0.2, 0.1, 0.3, 0.2, 0.9, 0, 0, 0, 0.8, 0.8, 0, 0.7, 0, 0, 0.3, 0, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 0]
 usuario = JSON.parse(localStorage.getItem("datosUsuario"));
+alergiasSeleccion = JSON.parse(localStorage.getItem("SeleccionAlergias"));
 //console.log(usuario);
 
-function califica() {
+function califica(tipoDiagnostico) {
+
+  console.log(tipoDiagnostico);
+  console.log("---------------------");
+  console.log(alergiasSeleccion);
+
     var matrizAlergias = [
         [0, 'Rinitis alérgica'], //hata llegar a 54 (total de sintomas).
         [1, 'Conjuntivitis'], //hata llegar a 54 (total de sintomas).
@@ -15,8 +21,8 @@ function califica() {
         [8, 'Alergia al moho'],
         [9, 'Alergia a los ácaros del polvo']
     ];
-    
-    
+
+
 
     //Rellena la matriz en las 53 posiciones con 0
     for (let i = 0; i < matrizAlergias.length; i++) {
@@ -89,8 +95,14 @@ function califica() {
                     y = 1;
                 }
             }
-            //imprime matriz "matrizAlergias"
-            diagnostico(matrizAlergias, usuario);
+
+            // Selecciona la funcion correspondiente al tipo de diagnostico.
+            if(tipoDiagnostico == "general"){
+              diagnostico(matrizAlergias, usuario);
+            }else{
+                diagnosticoEspecifico(matrizAlergias, usuario, alergiasSeleccion)
+            }
+
         }
 
     }
