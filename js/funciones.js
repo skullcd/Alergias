@@ -117,8 +117,7 @@ function ContenedorDefinicionEspecifico(resultadosTotal, textoResultados) {
 
 
 
-var AreaDolor = {Cabeza:["Nariz", "Ojos", "Boca", "GeneralCabeza"], GeneralCuerpo:["Piel"],
- Pecho:["Pecho"], Pierna:["Rodilla", "Pies"]};
+var AreaDolor = {Cabeza:["Nariz", "Ojos", "Boca", "GeneralCabeza"], GeneralCuerpo:["Piel"], Pecho:["Pecho"]};
 
 function change_photo(tipo){
     data="";
@@ -134,13 +133,17 @@ function getQuestions(tipo, area){
 }
 
 function getData(area, areaEspecifica){
+  console.log(area);
+  console.log(areaEspecifica);
   var xmlhttp = new XMLHttpRequest();
   var url = "sources/catalogoPreguntas.json";
 
   xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var myArr = JSON.parse(this.responseText);
+    console.log(myArr);
     areaEspecifica = myArr.Preguntas.Cuerpo[area][areaEspecifica];
+    console.log(areaEspecifica);
     data="";
     try {
       for (var i = 0; i < Object.keys(areaEspecifica).length; i++) {
@@ -206,7 +209,7 @@ function contadorPreguntas(){
     }
   }
   $("#ContadorPregunta").html("Preguntas contestadas: "+cont);
-  if (cont == 15) {
+  if (cont == 3) {
     console.log("entro");
     $("#boton-diagnostico").css("opacity","1");
   }

@@ -45,7 +45,7 @@
                 "28": "Indica la severidad de falta de aire",
                 "29": "Indica la severidad de congestión de pecho.",
                 "30": "Indica la severidad de dolor en el pecho."
-              },
+              }
 
 
             },
@@ -74,7 +74,7 @@
                 "51": "Indica la severidad de lesiones en la piel.",
                 "52": "Indica el nivel de dolor/ardor en la piel",
                 "54": "Indica la severidad de comezón en el cuerpo."
-              },
+              }
             }
         }
 
