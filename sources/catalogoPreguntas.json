@@ -39,11 +39,14 @@
                 }
             },
             "Pecho": {
+              "Pecho": {
                 "26": "Indica la severidad de sibilancia/silbidos al respirar.",
                 "27": "Indica la severidad de dificultad para respirar.",
                 "28": "Indica la severidad de falta de aire",
                 "29": "Indica la severidad de congestión de pecho.",
                 "30": "Indica la severidad de dolor en el pecho."
+              },
+
 
             },
             "Estómago": {
@@ -52,6 +55,7 @@
                 "33": "Indica la severidad de cólicos presentados."
             },
             "GeneralCuerpo":{
+              "Piel": {
                 "34": "Indica la severidad de las manchas en la piel",
                 "35": "Indica la severidad de engrosamiento de la piel",
                 "36": "Indica la severidad de piel en carne viva",
@@ -70,8 +74,9 @@
                 "51": "Indica la severidad de lesiones en la piel.",
                 "52": "Indica el nivel de dolor/ardor en la piel",
                 "54": "Indica la severidad de comezón en el cuerpo."
+              },
             }
         }
-        
+
     }
 }

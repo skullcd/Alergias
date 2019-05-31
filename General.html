@@ -22,36 +22,22 @@
     <p>Diagnóstico de alergias aplicando Lógica Difusa</p>
   </div>
   <div class="total">
-    <div onclick="ContenedorDefinicion()" id="cont_descrip" style="display: none" class="descripcion_img">
+    <div id="cont_descrip" style="display: none" class="descripcion_img">
 
       <div class="swiper-container swiper-container-desc">
         <div class="swiper-wrapper">
           <div class="swiper-slide descrip">
             <div class="contenedor_decripcion">
               <div class="contenedor_decripcion_derecho descrip">
-                <img src="imagenes/perfil.jpg">
+                <img id="imgResultado" src="">
               </div>
               <div class="contenedor_decripcion_izquierdo">
                 <div class="cont_izq_titulo descrip">
-                  <h2>Resultados</h2>
+                  <h2 id="nameResultado"></h2>
                 </div>
                 <div class="cont_izq_texto ">
-                  <p>está bien guapa D:</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide descrip">
-            <div class="contenedor_decripcion">
-              <div class="contenedor_decripcion_derecho descrip">
-                <img src="imagenes/perfil.jpg">
-              </div>
-              <div class="contenedor_decripcion_izquierdo">
-                <div class="cont_izq_titulo descrip">
-                  <h2>Descripción</h2>
-                </div>
-                <div class="cont_izq_texto ">
-                  <p>está bien guapa D:</p>
+                  <p id="textResultado"></p>
+                <b>  <p id="textResultadoporcentaje"></p></b>
                 </div>
               </div>
             </div>
@@ -135,12 +121,15 @@
               <div style="height: 100%; margin-top: 10px; margin-bottom: 30px" class="swiper-wrapper">
                 <div onclick="change_photo('Cabeza')" style="height: 100px" class="swiper-slide tarjetas-opciones">
                   Cabeza</div>
-                <div onclick="change_photo('torso')" style="height: 100px" class="swiper-slide tarjetas-opciones">Torso
+                  <div onclick="change_photo('GeneralCuerpo')" style="height: 100px" class="swiper-slide tarjetas-opciones">
+                    Cuerpo general</div>
+                <div onclick="change_photo('Pecho')" style="height: 100px" class="swiper-slide tarjetas-opciones">Torso
                 </div>
                 <div onclick="change_photo('Brazo')" style="height: 100px" class="swiper-slide tarjetas-opciones">Brazo
                 </div>
                 <div onclick="change_photo('Pierna')" style="height: 100px" class="swiper-slide tarjetas-opciones">
                   Pierna</div>
+
               </div>
               <!-- Add Pagination -->
               <div style="margin-bottom: 30px" class="swiper-pagination"></div>

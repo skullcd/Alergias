@@ -112,18 +112,15 @@ function diagnostico(alergias, sintomasUser, alergiasTexto) {
   // }
 
   // console.log(posicionFinalAlergia);
-  
-  ContenedorDefinicion();
   for (let i = 0; i < auxSumaAlergias.length; i++) {
     if (auxSumaAlergias[i] == valorFinal + valorMasAlto) {
       posicionFinalAlergia = i;
-      console.log(posicionFinalAlergia);
-      
       if (auxSumaAlergias[i] == valorMasAlto) {
         console.log("tienes: " + alergiasTexto[posicionFinalAlergia][1])
       } else {
+          localStorage.setItem("imgResultado", posicionFinalAlergia);
+          ContenedorDefinicion("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergiasTexto[posicionFinalAlergia][1]);
         // kk = Math.max.apply(Math, auxSumaAlergias);
-        console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergiasTexto[posicionFinalAlergia][1])
       }
     }
   }

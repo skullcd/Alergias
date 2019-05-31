@@ -88,17 +88,12 @@ function diagnosticoEspecifico(alergias, sintomasUser, alergiasSeleccion,alergia
       }
 
     }
-      console.log(auxSumaAlergias + " suma alergas");
-      ContenedorDefinicion();
+    arregloResultado = [];
+    posicionResultados = [];
     for (let i = 0; i < auxSumaAlergias.length; i++) {
-      console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergiasTexto[alergiasSeleccion[i]][1])
-        // if(auxSumaAlergias == valorMasAlto){
-        //     // console.log(newAlergias[i][0]);
-        // }else{
-        //     // kk = Math.max.apply(Math, auxSumaAlergias);
-        //     console.log("Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + newAlergias[i][0])
-        //     break;
-        // }
+      arregloResultado[i]="Hay un " + (parseFloat(parseFloat(valorMasAlto) * 100) / parseFloat(auxSumaAlergias[i])).toFixed(2) + "% de posibilidad de tener " + alergiasTexto[alergiasSeleccion[i]][1];
+      posicionResultados[i]=alergiasSeleccion[i];
     }
+    ContenedorDefinicionEspecifico(posicionResultados,arregloResultado);
 
 }

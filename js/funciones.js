@@ -1,19 +1,129 @@
-function ContenedorDefinicion() {
-    element = document.getElementById("cont_descrip");
-    if (element.style.display == "none") {
-       element.style.display = "flex";
-    }else{
-       element.style.display = "none";
-    }
+function ContenedorDefinicion(resultadoTotal) {
+      var img = localStorage.getItem("imgResultado");
+      var request = new XMLHttpRequest;
+      request.open('GET', './sources/alergias.json', true);
+      request.onreadystatechange = function () {
+        if (request.readyState == 4)
+          if  (request.status == 200) {
+
+            var alergiasArray = JSON.parse(this.responseText);
+            var alergias = alergiasArray['Alergias'];
+
+            //llenar la matriz "datos"
+            for (let i = 0; i < Object.keys(alergias).length; i++) {
+              if (i == img) {
+                var nameAlergia = Object.keys(alergias)[i];
+                var arrayDefinicion = alergias[nameAlergia]['Definicion'];
+                // document.getElementById(definicion).innerHTML = arrayDefinicion;
+                console.log(nameAlergia);
+                console.log(arrayDefinicion);
+                document.getElementById("imgResultado").setAttribute("src","img/imagenesAlergias/"+img+".jpg");
+                document.getElementById("textResultado").innerHTML=arrayDefinicion;
+                document.getElementById("nameResultado").innerHTML="Resultado: "+nameAlergia;
+                document.getElementById("textResultadoporcentaje").innerHTML=resultadoTotal;
+
+                element = document.getElementById("cont_descrip");
+                if (element.style.display == "none") {
+                   element.style.display = "flex";
+                }else{
+                   element.style.display = "none";
+                }
+              }
+
+            }
+          }
+        };
+        request.send(null);
 }
 
-var AreaDolor = {Cabeza:["Nariz", "Ojos", "Orejas", "Boca", "Garganta"], Torso:["Pecho", "Espalda", "Adomen"],
- Brazo:["Mano", "Hombro", "Codo"],Pierna:["Rodilla", "Pies"]};
+
+function cerrarModal(){
+  element = document.getElementById("cont_descripEspecifico");
+  if (element.style.display == "none") {
+     element.style.display = "flex";
+  }else{
+     element.style.display = "none";
+  }
+}
+
+function ContenedorDefinicionEspecifico(resultadosTotal, textoResultados) {
+      var img = localStorage.getItem("imgResultado");
+      var request = new XMLHttpRequest;
+      request.open('GET', './sources/alergias.json', true);
+      request.onreadystatechange = function () {
+        if (request.readyState == 4)
+          if  (request.status == 200) {
+
+            var alergiasArray = JSON.parse(this.responseText);
+            var alergias = alergiasArray['Alergias'];
+            dataContentido = "";
+            //llenar la matriz "datos"
+            for (var j = 0; j < resultadosTotal.length; j++) {
+              for (let i = 0; i < Object.keys(alergias).length; i++) {
+                  var nameAlergia = Object.keys(alergias)[resultadosTotal[j]];
+                  var arrayDefinicion = alergias[nameAlergia]['Definicion'];
+                  console.log(nameAlergia);
+                  console.log(arrayDefinicion);
+                  dataContentido += "<div class='swiper-slide descrip'>"+
+                    "<div class='contenedor_decripcion'>"+
+                      "<div class='contenedor_decripcion_derecho descrip'>"+
+                        "<img src='img/imagenesAlergias/"+resultadosTotal[j]+".jpg'>"+
+                      "</div>"+
+                      "<div class='contenedor_decripcion_izquierdo'>"+
+                        "<div class='cont_izq_titulo descrip'>"+
+                          "<h2>Resultado: "+nameAlergia+"</h2>"+
+                        "</div>"+
+                        "<div class='cont_izq_texto '>"+
+                          "<p>"+arrayDefinicion+"</p>"+
+                          "<b> <p id='textResultadoporcentaje_"+resultadosTotal[j]+"'>"+textoResultados[j]+"</p></b>"+
+                        "</div>"+
+                      "</div>"+
+                    "</div>"+
+                  "</div>";
+                  break;
+                  // document.getElementById('imgResultado").setAttribute("src","img/imagenesAlergias/"+resultadosTotal[j]+".jpg");
+                  // document.getElementById("textResultado").innerHTML=arrayDefinicion;
+                  // document.getElementById("nameResultado").innerHTML="Resultado: "+nameAlergia;
+                  // document.getElementById("textResultadoporcentaje").innerHTML=resultadoTotal;
+                  // }
+              }
+            }
+            console.log(dataContentido);
+            $("#ResultadosEspecifico").html(dataContentido);
+            element = document.getElementById("cont_descripEspecifico");
+            var swiper = new Swiper('.swiper-container-desc', {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              loop: true,
+              pagination: {
+                el: '.swiper-pagination-esp',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next-esp',
+                prevEl: '.swiper-button-prev-esp',
+              },
+            });
+
+            if (element.style.display = "none") {
+               element.style.display = "flex";
+            }else{
+               element.style.display = "none";
+             }
+          }
+        };
+        request.send(null);
+}
+
+
+
+var AreaDolor = {Cabeza:["Nariz", "Ojos", "Boca", "GeneralCabeza"], GeneralCuerpo:["Piel"],
+ Pecho:["Pecho"], Pierna:["Rodilla", "Pies"]};
 
 function change_photo(tipo){
     data="";
     for(datos in AreaDolor[tipo]){
-      data +="<div style='height: 100px' onclick=\"getQuestions('"+AreaDolor[tipo][datos]+"', '"+tipo+"')\" class='swiper-slide tarjetas-opciones'>"+AreaDolor[tipo][datos]+"</div>";
+      data +="<div style='height: 100px; ' onclick=\"getQuestions('"+AreaDolor[tipo][datos]+"', '"+tipo+"')\" class='swiper-slide tarjetas-opciones'>"+AreaDolor[tipo][datos]+"</div>";
     }
     document.getElementById("dolorEspecifico").innerHTML = data;
     document.getElementById("img_principal").setAttribute("src","imagenes/"+tipo+".jpg");
