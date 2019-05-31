@@ -50,9 +50,11 @@
 
             },
             "Estómago": {
-                "31": "Indica la severidad del dolor abdominal.",
-                "32": "Indica la severidad de la diarrea presentada.",
-                "33": "Indica la severidad de cólicos presentados."
+              "Estómago": {
+                  "31": "Indica la severidad del dolor abdominal.",
+                  "32": "Indica la severidad de la diarrea presentada.",
+                  "33": "Indica la severidad de cólicos presentados."
+              }
             },
             "GeneralCuerpo":{
               "Piel": {

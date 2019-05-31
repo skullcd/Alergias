@@ -117,7 +117,7 @@ function ContenedorDefinicionEspecifico(resultadosTotal, textoResultados) {
 
 
 
-var AreaDolor = {Cabeza:["Nariz", "Ojos", "Boca", "GeneralCabeza"], GeneralCuerpo:["Piel"], Pecho:["Pecho"]};
+var AreaDolor = {Cabeza:["Nariz", "Ojos", "Boca", "GeneralCabeza"], GeneralCuerpo:["Piel"], Pecho:["Pecho"], Estómago:["Estómago"]};
 
 function change_photo(tipo){
     data="";
