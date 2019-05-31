@@ -23,7 +23,7 @@ function ContenedorDefinicion(resultadoTotal) {
                 document.getElementById("textResultadoporcentaje").innerHTML=resultadoTotal;
 
                 element = document.getElementById("cont_descrip");
-                if (element.style.display == "none") {
+                if (element.style.display = "none") {
                    element.style.display = "flex";
                 }else{
                    element.style.display = "none";
