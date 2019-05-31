@@ -219,7 +219,7 @@ function contadorPreguntas(){
     }
   }
   $("#ContadorPregunta").html("Preguntas contestadas: "+cont);
-  if (cont == 3) {
+  if (cont == 15) {
     console.log("entro");
     $("#boton-diagnostico").css("opacity","1");
   }
