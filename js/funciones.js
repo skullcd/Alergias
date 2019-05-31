@@ -46,6 +46,16 @@ function cerrarModal(){
   }
 }
 
+function cerrarModalGenral(){
+  element = document.getElementById("cont_descrip");
+  if (element.style.display == "none") {
+     element.style.display = "flex";
+  }else{
+     element.style.display = "none";
+  }
+}
+
+
 function ContenedorDefinicionEspecifico(resultadosTotal, textoResultados) {
       var img = localStorage.getItem("imgResultado");
       var request = new XMLHttpRequest;
